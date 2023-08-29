@@ -120,17 +120,17 @@ header>nav>a{
 }
 
 
-/*About me section*/
+/********************** About me section ********************************/
+
 #about_me_section{
     position: relative;
     /*background: yellow;*/
-    height: 100vh;
 
 }
 
 
 #about_me_section>div:first-child{
-    top: 4vw;
+    top: 4.2vw;
     z-index: 500;
     width: 50vw;
     height: 2vw;
@@ -199,7 +199,7 @@ header>nav>a{
     font-size: 20px;
     top: 12vw;
     left: 0;
-    color: grey;
+    color: #2083d7;
 
 }
 #about_me_section>div:nth-child(4){
@@ -240,6 +240,7 @@ header>nav>a{
     left: 2%;
     display: flex;
     border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px, rgb(209, 213, 219) 0px 0px 0px 1px inset;
 }
 #about_me_section>div:nth-child(5)>h2{
     position: absolute;
@@ -291,10 +292,11 @@ header>nav>a{
     width: 12vw;
     height: 4vw;
 
-    right: 10vw;
-    bottom: 05vw;
+    right: 6vw;
+    bottom: 03vw;
 
 }
+
 #about_me_section>div:nth-child(5)>div:nth-child(4)>button{
    position: absolute;
     width: 12vw;
@@ -334,3 +336,252 @@ header>nav>a{
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
 }
 
+#about_me_section>#education_level {
+    position: relative;
+    top: 15vw;
+    background: rgba(15, 145, 218, 0.1);
+    width:96%;
+    left: 2%;
+    height: 95vh;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px, rgb(209, 213, 219) 0px 0px 0px 1px inset;
+
+}
+#about_me_section>#education_level>img{
+    position: absolute;
+    margin: auto;
+    top: 7.5vw;
+    left: 0;
+    bottom: 0;
+    right: 0;
+
+    width: 10vw;
+    height: 23vw;
+
+}
+#about_me_section>#education_level>span{
+    position: absolute;
+    left: 3vw;
+    top: 3vw;
+    font-weight: bold;
+    font-size: 24px;
+
+    /*background: red;*/
+}
+#about_me_section>#education_level>div{
+    position: absolute;
+    /*width: 200px;*/
+    /*height: 50px;*/
+    /*background: red;*/
+}
+
+#about_me_section>#education_level>div:nth-child(3){
+    top: 18vh;
+    left: 40vw;
+}
+#about_me_section>#education_level>div:nth-child(3)>span:first-child{
+    font-size: 18px;
+    display: block;
+    color: black;
+}
+#about_me_section>#education_level>div:nth-child(3)>span:nth-child(2){
+    font-size: 18px;
+    display: block;
+    color: grey;
+}
+
+#about_me_section>#education_level>div:nth-child(4){
+    top: 49vh;
+    left: 24vw;
+}
+#about_me_section>#education_level>div:nth-child(4)>span:first-child{
+    font-size: 18px;
+    display: block;
+    color: black;
+}
+#about_me_section>#education_level>div:nth-child(4)>span:nth-child(2){
+    font-size: 18px;
+    display: block;
+    color: grey;
+}
+#about_me_section>#education_level>div:nth-child(4)>span:nth-child(3){
+    font-size: 18px;
+    color: grey;
+}
+
+
+#about_me_section>#education_level>div:nth-child(5){
+    top: 37vh;
+    right: 21vw;
+}
+#about_me_section>#education_level>div:nth-child(5)>span:first-child{
+    font-size: 18px;
+    display: block;
+    color: black;
+}
+#about_me_section>#education_level>div:nth-child(5)>span:nth-child(2){
+    font-size: 18px;
+    color: grey;
+
+}
+
+#about_me_section>#education_level>div:nth-child(6){
+    top: 64vh;
+    right: 24vw;
+}
+#about_me_section>#education_level>div:nth-child(6)>span:first-child{
+    font-size: 18px;
+    display: block;
+    color: black;
+}
+#about_me_section>#education_level>div:nth-child(6)>span:nth-child(2){
+    font-size: 18px;
+    color: grey;
+
+}
+
+#about_me_section>#education_level>div:nth-child(7){
+    top: 84vh;
+    right: 46vw
+}
+#about_me_section>#education_level>div:nth-child(7)>span:first-child{
+    font-size: 18px;
+    color: black;
+}
+
+
+#about_me_section>#education_level>div:nth-child(8){
+    width: 50px;
+    height: 50px;
+    /*background: blue;*/
+
+    top: 6vh;
+    left: 36vw;
+
+    rotate: 38deg;
+}
+#about_me_section>#education_level>div:nth-child(9){
+    width: 50px;
+    height: 50px;
+    /*background: blue;*/
+
+    top: 28vh;
+    right: 16vw;
+
+    rotate: 38deg;
+}
+#about_me_section>#education_level>div:nth-child(10){
+    width: 50px;
+    height: 50px;
+    /*background: blue;*/
+
+    top: 40vh;
+    left: 19vw;
+
+    rotate: 38deg;
+}
+#about_me_section>#education_level>div:nth-child(11){
+    width: 50px;
+    height: 50px;
+    /*background: blue;*/
+
+    top: 56vh;
+    right: 20vw;
+
+    rotate: 60deg;
+}
+
+ /*----------- div 07 Languages and  Tools ------------------*/
+
+#about_me_section>#languages_and_tools {
+    position: relative;
+    top: 20vw;
+    height: 100vh;
+    /*background: yellow;*/
+}
+
+#about_me_section>#languages_and_tools>span:first-child{
+    height: fit-content;
+    width: fit-content;
+    position: absolute;
+
+    right: 0;
+    left: 0;
+    margin: auto;
+
+    font-weight: bold;
+    font-size: 35px;
+}
+
+#about_me_section>#languages_and_tools>div:nth-child(2)>span:first-child{
+
+    position: absolute;
+    left: 5vw;
+    top: 8vw;
+    font-weight: bold;
+    font-size: 24px;
+}
+#about_me_section>#languages_and_tools>div:nth-child(2)>span:nth-child(2){
+
+    position: absolute;
+    width: 50vw;
+    left: 5vw;
+    top: 12vw;
+    color: grey;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#about_me_section>#languages_and_tools>div:nth-child(3) {
+
+    width: 70vw;
+    height: 8vw;
+    position: relative;
+    left: 0;
+    right: 0;
+    top: 23vw;
+    margin: auto;
+    border-radius: 1vw;
+    display: flex;
+    justify-content: space-around;
+
+    background-image: linear-gradient(rgba(15, 145, 218, 0.2), white);
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+
+
+}
+
+#about_me_section>#languages_and_tools>div:nth-child(3)>img{
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    width: 70px;
+    height: 70px;
+}
+
+
+#about_me_section>#languages_and_tools>div:nth-child(4){
+    width:70vw;
+    height: 8vw;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 34vw;
+    margin: auto;
+    border-radius: 1vw;
+
+    display: flex;
+    justify-content: space-around;
+
+    background-image: linear-gradient(rgba(15, 145, 218, 0.2), white);
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+
+}
+
+#about_me_section>#languages_and_tools>div:nth-child(4)>img{
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    width: 70px;
+    height: 70px;
+}
