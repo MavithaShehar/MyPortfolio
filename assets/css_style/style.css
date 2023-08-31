@@ -94,7 +94,6 @@ header>nav>a{
     font-size: 24px;
     font-weight: bold;
 }
-
 #home_section>div:nth-child(4){
     position: absolute;
     /*border: black solid 5px;*/
@@ -141,7 +140,7 @@ header>nav>a{
     width: 50vw;
     height: 2vw;
     position: sticky;
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    box-shadow: rgba(0, 0, 0, 0.16) 5px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
     border-bottom-right-radius: 45px;
     border-top-right-radius: 45px;
     background: #12cbcb;
@@ -889,8 +888,15 @@ header>nav>a{
     background: #99d5f8;
     border-radius: 10px;
     border: 2px solid #12cbcb;
-    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+    box-shadow: rgb(218, 232, 232) 0px 25px 20px -20px;
     border-bottom: #0F91DA solid 10px;
+}
+
+#section_project >#projects>div:hover{
+
+
+    height: 62vh;
+    box-shadow: rgb(166, 253, 253) 0px 22px 70px 4px;
 }
 
 #section_project > #projects > div:first-child{
@@ -956,9 +962,14 @@ header>nav>a{
 
 #section_project>.around_button:active {
     transform: scale(0.95);
-    box-shadow: 0px 0px 10px rgb(47, 212, 232);
+    box-shadow: 0px 0px 10px rgb(166, 253, 253);
 }
 
+#section_project>.around_button:hover{
+    background-color: #a6fdfd;
+    box-shadow: rgb(166, 253, 253) 5px 5px 5px 5px;
+
+}
 
 #section_project>.around_button>img{
 
@@ -1038,6 +1049,12 @@ header>nav>a{
     box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 
 }
+#section_project>div:nth-child(7)>button:hover{
+
+    background-color: #2fd4e8;
+    box-shadow: rgb(166, 253, 253) 0px 50px 70px 50px;
+
+}
 #section_project>div:nth-child(7)>button>span{
     position: absolute;
     height: fit-content;
@@ -1071,7 +1088,7 @@ header>nav>a{
     width: 100%;
 
     height: 150vh;
-    background: yellow;
+    /*background: yellow;*/
 
 }
 
@@ -1092,18 +1109,16 @@ header>nav>a{
 
     position: absolute;
     top: 23vh;
-    background: rgba(15, 145, 218, 0.1);
     width:94%;
     left: 4%;
     height: 95vh;
-    border-radius: 10px;
-    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px, rgb(209, 213, 219) 0px 0px 0px 1px inset;
 
 }
 
 #section_gallery>div:nth-child(3)>img{
     position: absolute;
     border: #12cbcb solid 3px;
+    box-shadow: rgb(166, 253, 253) 0px 22px 70px 4px;
 
 }
 
@@ -1196,3 +1211,123 @@ header>nav>a{
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
 }
 
+
+
+/* /////////////////   section contact  //////////////////////////////*/
+
+#section_contact{
+
+    position: relative;
+    width: 100%;
+
+    height: 150vh;
+    background: yellow;
+
+}
+
+#section_contact>h2{
+
+    position: absolute;
+    height: fit-content;
+    width: fit-content;
+    top: 16vh;
+    left:0 ;
+    right: 0;
+    margin: auto;
+    color: #0F91DA;
+
+}
+
+#section_contact > #div_messages{
+
+    position: absolute;
+    width: 100%;
+    height: 38%;
+
+    background: pink;
+    top: 24vh;
+
+    }
+
+#section_contact > #div_messages > h1{
+
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 7vw;
+    margin: auto;
+    height: fit-content;
+    width: fit-content;
+
+}
+#section_contact > #div_messages > h3{
+
+    position: absolute;
+
+    top: 1vh;
+    left: 40%;
+    right: 0;
+
+    height: fit-content;
+    width: fit-content;
+
+}
+
+#section_contact > #div_messages >#messege_area{
+
+    position: absolute;
+    left: 40%;
+    top: 15%;
+
+}
+
+#section_contact > #div_messages >#messege_area > input,textarea{
+    margin-bottom: 10px;
+    width: 400px;
+
+    border: 1.5px solid #7cd8de;
+    border-radius: 5px;
+
+    resize: none;
+    padding: 5px;
+    padding-left: 10px;
+}
+
+#section_contact > #div_messages >#messege_area > textarea{
+    width: 500px;
+    height: 100px;
+
+}
+
+#section_contact > #div_messages >#messege_area>button{
+    position: absolute;
+    width: 100px;
+    height: 30px;
+    background-color: #7ee115;
+    color: white;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+    border-radius: 10px;
+    border: #5eab0c solid 2px;
+    box-shadow: rgb(122, 215, 24) 0px 22px 70px 4px;
+
+    right: 0;
+
+
+}
+#section_contact > #div_messages >#messege_area>span{
+    position: absolute;
+    height: fit-content;
+    width: fit-content;
+    left: 1vw;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    font-weight: bold;
+}
+
+#section_contact > #div_messages >#messege_area>button:active {
+    transform: scale(0.95);
+    background: #2fd4e8;
+
+}
