@@ -6,7 +6,7 @@
 
 }
 
-h1,h2,h3,h4,h5,p{
+h1,h2,h3,h4,h5,span{
     font-family: 'poppins',sans-serif;
 }
 
@@ -1213,14 +1213,14 @@ header>nav>a{
 
 
 
-/* /////////////////   section contact  //////////////////////////////*/
+/* /////////////////   section contact 01  //////////////////////////////*/
 
 #section_contact{
 
     position: relative;
     width: 100%;
 
-    height: 150vh;
+    height: 100vh;
     background: yellow;
 
 }
@@ -1242,7 +1242,7 @@ header>nav>a{
 
     position: absolute;
     width: 100%;
-    height: 38%;
+    height: 55vh;
 
     background: pink;
     top: 24vh;
@@ -1330,4 +1330,87 @@ header>nav>a{
     transform: scale(0.95);
     background: #2fd4e8;
 
+}
+
+/* ///////////////////// contact section 02 contact_area /////////////////// */
+
+#section_contact>#contact_area{
+
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    background: #bbfc76;
+
+    top: 79vh;
+
+}
+#section_contact>#contact_area>div{
+    background: red;
+    position: absolute;
+    width: 100px;
+    height: 80px;
+    top: 10px;
+
+}
+
+#section_contact>#contact_area>div>a>img {
+    position: absolute;
+    width: 35px;
+    height: 35px;
+
+    left: 0;
+    right: 0;
+    margin: auto;
+
+}
+#section_contact>#contact_area>div>h5{
+    position: absolute;
+    height:fit-content;
+    width: fit-content;
+
+    top: 20px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+#section_contact>#contact_area>div:first-child{
+
+    margin-left:80px ;
+}
+
+#section_contact>#contact_area>div:nth-child(2){
+
+    left: 200px;
+}
+#section_contact>#contact_area>div:nth-child(3){
+
+    width: 200px;
+    left: 320px;
+}
+#section_contact>#contact_area>div:nth-child(4){
+
+    left: 540px;
+}
+#section_contact>#contact_area>div:nth-child(5){
+
+    left: 660px;
+}
+
+body>#section_footer{
+    position: relative;
+    height: 20px;
+    background: grey;
+
+    width: 100%;
+}
+body>#section_footer>h3{
+    font-weight: initial;
+    color: white;
+    height: fit-content;
+    width: fit-content;
+    left: 0;
+    right: 0;
+    margin: auto;
 }
