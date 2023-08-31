@@ -6,7 +6,7 @@
 
 }
 
-p{
+h1,h2,h3,h4,h5,p{
     font-family: 'poppins',sans-serif;
 }
 
@@ -715,7 +715,7 @@ header>nav>a{
     position: relative;
     top: 0;
     bottom: 0;
-    height: 130vh;
+    height: 135vh;
     background-color: lightyellow;
 }
 
@@ -853,4 +853,212 @@ header>nav>a{
     background:white;
     top: 55vh;
     left: 20vw;
+}
+
+
+/* ///////////////////////  my project section /////////////////////////////*/
+
+#section_project{
+    position: relative;
+    width: 100%;
+
+    height: 100vh;
+    /*background: yellow;*/
+
+}
+
+#section_project>h2{
+
+    position: absolute;
+    height: fit-content;
+    width: fit-content;
+    top: 16vh;
+    left:0 ;
+    right: 0;
+    margin: auto;
+    color: #0F91DA;
+
+}
+
+#section_project >#projects>div{
+
+    position:absolute;
+    top: 25vh;
+    width: 35vw;
+    height: 60vh;
+    background: #99d5f8;
+    border-radius: 10px;
+    border: 2px solid #12cbcb;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+    border-bottom: #0F91DA solid 10px;
+}
+
+#section_project > #projects > div:first-child{
+    left:14%;
+
+}
+#section_project > #projects > div:first-child > img:first-child , div:nth-child(2) > img:first-child{
+    width: 400px;
+    height: 200px;
+
+    position: absolute;
+    top: 10px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+#section_project > #projects > div:nth-child(2){
+    right: 14%;
+
+}
+
+#section_project > #projects > div:first-child > h4 , div:nth-child(2) > h4  {
+    position: relative;
+    top: 65%;
+    left: 0;
+    right: 0;
+    margin: auto;
+
+    width: fit-content;
+}
+
+#section_project > #projects > div:first-child > h5 , div:nth-child(2) > h5 {
+    position: relative;
+    top: 70%;
+    left: 0;
+    right: 0;
+    margin: auto;
+
+    margin-right: 20px;
+    margin-left: 20px;
+
+    text-align: center;
+
+    width: fit-content;
+}
+
+#section_project>.around_button{
+
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-color: #49acff;
+    border-radius: 100%;
+    box-shadow: rgb(221, 245, 245) 0px -23px 25px 0px inset, rgb(221, 245, 245) 0px -36px 30px 0px inset, rgb(221, 245, 245) 0px -79px 40px 0px inset, rgb(221, 245, 245) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+
+
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+
+}
+
+
+#section_project>.around_button:active {
+    transform: scale(0.95);
+    box-shadow: 0px 0px 10px rgb(47, 212, 232);
+}
+
+
+#section_project>.around_button>img{
+
+    position: absolute;
+    width: 30px;
+    height: 30px;
+}
+
+#section_project>button:nth-child(5)>img{
+
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 4px;
+    margin: auto;
+    width: 30px;
+    height: 30px;
+}
+
+#section_project>button:nth-child(3)>img{
+
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 4px;
+    left: 0;
+    margin: auto;
+    width: 30px;
+    height: 30px;
+}
+
+
+
+#section_project>button:nth-child(5){
+    right: 5%;
+    top: 50%;
+}
+
+#section_project>button:nth-child(3){
+    left: 5%;
+    top: 50%;
+}
+
+#section_project > h3{
+    position: absolute;
+
+    top: 93vh;
+    left: 40%;
+    color: grey;
+}
+
+#section_project > h3 >span{
+    color: black;
+    font-weight: bold;
+}
+
+#section_project>div:nth-child(7){
+    position: absolute;
+    width: 12vw;
+    height: 4vh;
+
+    right: 8vw;
+    bottom: 03vw;
+}
+
+#section_project>div:nth-child(7)>button{
+    position: absolute;
+    width: 12vw;
+    height: 4vw;
+    background-color: #3498db;
+    color: white;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+    border-radius: 45px;
+    border: #0b6a9f solid 2px;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+
+}
+#section_project>div:nth-child(7)>button>span{
+    position: absolute;
+    height: fit-content;
+    width: fit-content;
+    left: 1vw;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    font-weight: bold;
+}
+#section_project>div:nth-child(7)>button>img{
+    position: absolute;
+    height: fit-content;
+    width: fit-content;
+    top: 0;
+    right: 1vw;
+    bottom: 0;
+    margin: auto;
+}
+
+#section_project>div:nth-child(7)>button:active {
+    transform: scale(0.95);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
 }
