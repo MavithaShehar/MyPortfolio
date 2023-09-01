@@ -1036,7 +1036,7 @@ header>nav>a{
     bottom: 15vh;
 }
 
-#section_project>div:nth-child(7)>button{
+#section_project>div:nth-child(7)>a>button{
     position: absolute;
     width: 12vw;
     height: 4vw;
@@ -1049,13 +1049,13 @@ header>nav>a{
     box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 
 }
-#section_project>div:nth-child(7)>button:hover{
+#section_project>div:nth-child(7)>a>button:hover{
 
     background-color: #2fd4e8;
     box-shadow: rgb(166, 253, 253) 0px 50px 70px 50px;
 
 }
-#section_project>div:nth-child(7)>button>span{
+#section_project>div:nth-child(7)>a>button>span{
     position: absolute;
     height: fit-content;
     width: fit-content;
@@ -1065,7 +1065,7 @@ header>nav>a{
     margin: auto;
     font-weight: bold;
 }
-#section_project>div:nth-child(7)>button>img{
+#section_project>div:nth-child(7)>a>button>img{
     position: absolute;
     height: fit-content;
     width: fit-content;
@@ -1075,7 +1075,7 @@ header>nav>a{
     margin: auto;
 }
 
-#section_project>div:nth-child(7)>button:active {
+#section_project>div:nth-child(7)>a>button:active {
     transform: scale(0.95);
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
 }
