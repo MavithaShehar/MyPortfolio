@@ -3,9 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <title>Shehar Mavitha</title>
+    <link rel="icon" href="assets/image/nav/images__2_-removebg-preview.png" type="image/x-icon" style="border-radius: 50%">
 
     <link rel="stylesheet" href="assets/css_style/normalize.css">
     <link rel="stylesheet" href="assets/css_style/style.css">
+    <link rel="stylesheet" href="assets/css_style/preloder.css">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css">
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
 
     <meta content="I am Shehar Mavitha. I am a developer living in
             elpitiya, Sri Lanka. I am currently studying in Institute Software Engineering (IJSE).My interests are in
@@ -19,9 +31,15 @@
 </head>
 <body>
 
+
+<div id="preloader">
+    <div id="preloader_over_layer"></div>
+    <img src="assets/image/preloder/prelogo_gpn.gif" alt="">
+</div>
+
 <header>
 
-    <h2>Shehar</h2>
+    <h2 id="lodo">Shehar</h2>
 
     <nav>
         <a href="#home_section">Home</a>
@@ -36,24 +54,24 @@
 
 <section id="home_section">
 
-    <img src="../assets/image/hero_section/mypic_01.png" alt="my_image">
-    <img src="../assets/image/hero_section/Rectangle%2016.png" alt="language_image">
+    <img src="assets/image/hero_section/mypic_01.png" alt="my_image">
+    <img src="assets/image/hero_section/Rectangle%2016.png" alt="language_image">
 
     <div>
         <dl>Hello</dl>
         <dl>I am</dl>
-        <dl><span>Shehar</span> <span>Mavitha</span></dl>
+        <dl><span class="animate__animated animate__bounce" >Shehar</span> <span>Mavitha</span></dl>
         <dl>SoftWare Engineer</dl>
     </div>
 
     <div>
-        <img src="../assets/image/hero_section/github.png" alt="github_img">
-        <img src="../assets/image/hero_section/linkedin.png" alt="linkedin_img">
-        <img src="../assets/image/hero_section/discord.png" alt="discord_img">
+        <img src="assets/image/hero_section/github.png" alt="github_img">
+        <img src="assets/image/hero_section/linkedin.png" alt="linkedin_img">
+        <img src="assets/image/hero_section/discord.png" alt="discord_img">
     </div>
 
     <div>
-        <span>NO</span>
+        <span class="animate__animated animate__bounce">NO</span>
         <span>sacrifice </span>
         <span>NO</span>
         <span>victory</span>
@@ -72,17 +90,17 @@
 
     <!--    div_02  -->
     <div>
-        <span>introduce me</span>
+        <span class="animate__animated animate__bounce">introduce me</span>
     </div>
 
     <!--    div_03  -->
-    <div>
+    <div data-aos="fade-right">
         <h2>
             I Can Develop
             That Help People
         </h2>
 
-        <h3>
+        <h3 data-aos="fade-right">
             Hello, I am shehar mavitha kaluarachchi
             I began my Software engineer life in 2022.
             I've spent most of my waking hours for the last years designing,
@@ -389,16 +407,6 @@
         <img src="assets/image/projects/next-right.png" alt="DownloadIcon">
     </button>
 
-    <h3> <span>"Clickhere"</span> to view my project and assignment.</h3>
-
-    <div>
-        <a href="assignments.html#assignment_pag">
-        <button>
-            <span>View  Assingment</span>
-<!--            <img src="assets/image/projects/View%20Assingment.png" alt="DownloadIcon">-->
-        </button>
-        </a>
-    </div>
 
 
 </section>
@@ -512,7 +520,40 @@
         <h3>Developed By Shehar mavitha</h3>
     </footer>
 
+<!--<script>-->
+<!--    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">-->
+<!--        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>-->
+<!--</script>-->
 
+<script src="assets/bootstrap/lib/jquery.min.js"></script>
+
+<script src="assets/bootstrap/lib/bootstrap/js/bootstrap.min.js"></script>
+
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+<script>
+    AOS.init();
+
+    // window.onload = () =>{
+    //     console.log("A");
+    //     $('#preloader').css("display","none");
+    // }
+
+    window.addEventListener ("load",() =>{
+        console.log("A");
+        $('#preloader').css("display","none");
+    });
+
+    document.addEventListener("DOMContentLoaded", () =>{
+        console.log("B");
+    });
+
+    $(window).ready(() =>{
+        console.log("C");
+    });
+
+</script>
 
 </body>
 
