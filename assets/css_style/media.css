@@ -38,7 +38,7 @@
         position: relative;
         /*background: #f5e9ed;*/
         width: 100%;
-        height: 430vh;
+        height: 505vh;
     }
 
     .section_bar {
@@ -292,7 +292,7 @@
     /*----------- div 07 abut me Languages and  Tools ------------------*/
     #about_me_section > #languages_and_tools {
         position: relative;
-        top: 20vw;
+        top: 55vw;
         height: 100vh;
         /*background: yellow;*/
     }
@@ -315,7 +315,7 @@
 
     /*----------- div 08 degrees ------------------*/
     #about_me_section > #degrees {
-        top: 8vw;
+        top: 70vh;
     }
 
     #about_me_section > #degrees > h3 {
@@ -338,7 +338,7 @@
 
     /********************** About Education From section ********************************/
     #about_me_section > #educational_from {
-        top: 15vw;
+        top: 50vw;
 
     }
 
@@ -840,6 +840,7 @@
 
     /*----------- div 07 Languages and  Tools ------------------*/
     #about_me_section > #languages_and_tools {
+        top: 30vh;
         /*background: rgba(239, 239, 162, 0.27);*/
     }
 
