@@ -1,0 +1,1144 @@
+@media screen and (max-width: 1025px) {
+
+    /********************** Nav section ********************************/
+    #lodo {
+        font-size: 35px;
+    }
+
+    header {
+        height: 8vh;
+    }
+
+    header > nav > a {
+        font-size: 1em;
+        top: 5px;
+
+    }
+
+    header>h2{
+        font-size: 2em;
+        color: white;
+        user-select: none;
+        /*font-family: 'Lobster', cursive;*/
+        font-family: 'Noto Sans SC', sans-serif;
+        /*font-family: 'Roboto Condensed', sans-serif;*/
+    }
+
+    /**********************  hero section style  ****************/
+    #home_section > img:first-child {
+        position: absolute;
+        height: 80vh;
+        width: 45vw;
+        right: -6vw;
+
+    }
+
+    /*************** About me section ************/
+    #about_me_section {
+        position: relative;
+        /*background: #f5e9ed;*/
+        width: 100%;
+        height: 430vh;
+    }
+
+    .section_bar {
+        top: 10.5vh;
+        z-index: 500;
+        width: 50vw;
+        height: 2vw;
+        position: sticky;
+        box-shadow: rgb(221, 245, 245) 5px 3px 6px, rgb(221, 245, 245) 0px 3px 6px;
+        border-bottom-right-radius: 45px;
+        border-top-right-radius: 45px;
+        background: #12cbcb;
+
+    }
+
+    /****** div03 *******/
+    #about_me_section > div:nth-child(3) {
+
+        height: 35vw;
+
+    }
+
+    #about_me_section > div:nth-child(4) {
+
+        /*background: #e3fc76;*/
+        width: calc((100vw - 20vw) / 2);
+        height: 40vw;
+
+    }
+
+    #about_me_section > div:nth-child(4) > img:first-child {
+        top: 3vh;
+        /*background: blue;*/
+        right: 0;
+
+    }
+
+    #about_me_section > div:nth-child(4) > img:nth-child(3) {
+
+        right: 7vw;
+        top: -5vh;
+    }
+
+    #about_me_section > div:nth-child(4) > img:nth-child(2) {
+        position: absolute;
+        /*background: #f12f2f;*/
+        right: 7vw;
+        top: 4vw;
+        font-size: 20px;
+    }
+
+    #about_me_section > div:nth-child(5) > div:nth-child(2) > h3 {
+        font-size: 18px;
+        margin-bottom: 3vh;
+
+    }
+
+    #about_me_section > div:nth-child(5) > h2 {
+        font-size: 20px;
+    }
+
+    #about_me_section > div:nth-child(5) > div > h3 > div:first-child {
+
+        width: 12px;
+        aspect-ratio: 1/1;
+
+    }
+
+    #about_me_section > div:nth-child(5) > div:nth-child(3) > h3 {
+        font-size: 18px;
+        margin-bottom: 3vh;
+    }
+
+    #about_me_section > div:nth-child(5) > div > h3 > span:nth-child(3) {
+        color: #525050;
+        font-size: 18px;
+
+    }
+
+    #about_me_section > div:nth-child(5) > div:nth-child(4) {
+        width: 15vw;
+        height: 4vw;
+    }
+
+    #about_me_section > div:nth-child(5) > div:nth-child(4) > button {
+        width: 15vw;
+        height: 4vw;
+
+    }
+
+    #about_me_section > div:nth-child(5) > div:nth-child(4) > button > span {
+        font-size: 15px;
+        left: 1.5vw;
+    }
+
+    #about_me_section > div:nth-child(5) > div:nth-child(4) > button:active {
+
+        font-size: 15px;
+    }
+
+
+    /********************** About Education section ********************************/
+    #about_me_section > #education_level {
+        height: 80vh;
+
+    }
+
+
+    #about_me_section > #education_level > span {
+
+        font-size: 20px;
+        /*background: red;*/
+    }
+
+    #about_me_section > #education_level > img {
+
+        top: 90px;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        width: 12vw;
+        height: 28vw;
+        /*background-color: red;*/
+
+    }
+
+    #about_me_section > #education_level > div:nth-child(3) {
+        top: 13vh;
+        left: 40vw;
+        /*background-color: red;*/
+    }
+
+    #about_me_section > #education_level > div:nth-child(3) > span:first-child {
+        font-size: 15px;
+
+    }
+
+    #about_me_section > #education_level > div:nth-child(3) > span:nth-child(2) {
+        font-size: 15px;
+
+    }
+
+    #about_me_section > #education_level > div:nth-child(4) {
+        top: 42vh;
+        left: 20vw;
+    }
+
+    #about_me_section > #education_level > div:nth-child(4) > span:first-child {
+        font-size: 15px;
+    }
+
+    #about_me_section > #education_level > div:nth-child(4) > span:nth-child(2) {
+        font-size: 15px;
+    }
+
+    #about_me_section > #education_level > div:nth-child(4) > span:nth-child(3) {
+        font-size: 15px;
+    }
+
+    #about_me_section > #education_level > div:nth-child(5) {
+        top: 31.5vh;
+        right: 17vw;
+
+    }
+
+    #about_me_section > #education_level > div:nth-child(5) > span:first-child {
+        font-size: 15px;
+
+    }
+
+    #about_me_section > #education_level > div:nth-child(5) > span:nth-child(2) {
+        font-size: 15px;
+    }
+
+    #about_me_section > #education_level > div:nth-child(6) {
+        top: 56vh;
+        right: 21vw;
+    }
+
+    #about_me_section > #education_level > div:nth-child(6) > span:first-child {
+        font-size: 15px;
+
+    }
+
+    #about_me_section > #education_level > div:nth-child(6) > span:nth-child(2) {
+        font-size: 15px;
+
+    }
+
+    #about_me_section > #education_level > div:nth-child(7) {
+        top: 74vh;
+        right: 45.5vw;
+
+    }
+
+    #about_me_section > #education_level > div:nth-child(7) > span:first-child {
+        font-size: 15px;
+        font-weight: bold;
+
+    }
+
+    #about_me_section > #education_level > div:nth-child(8) {
+        /*background: red;*/
+        top: 11vh;
+        left: 34.5vw;
+        rotate: 10deg;
+    }
+
+    #about_me_section > #education_level > div:nth-child(8) > img {
+        width: 55px;
+        height: 55px;
+
+    }
+
+    #about_me_section > #education_level > div:nth-child(9) {
+        right: 13vw;
+        top: 26vh;
+        rotate: -35deg;
+    }
+
+    #about_me_section > #education_level > div:nth-child(9) > img {
+        width: 55px;
+        height: 55px;
+    }
+
+    #about_me_section > #education_level > div:nth-child(10) {
+
+        top: 36vh;
+        left: 16vw;
+        rotate: 38deg;
+    }
+
+    #about_me_section > #education_level > div:nth-child(10) > img {
+        width: 50px;
+        height: 50px;
+        top: 36vh;
+        left: 15vw;
+        rotate: 280deg;
+    }
+
+    #about_me_section > #education_level > div:nth-child(11) {
+        width: 50px;
+        height: 50px;
+
+        top: 50vh;
+        right: 17vw;
+
+        rotate: 60deg;
+    }
+
+    /*----------- div 07 abut me Languages and  Tools ------------------*/
+    #about_me_section > #languages_and_tools {
+        position: relative;
+        top: 20vw;
+        height: 100vh;
+        /*background: yellow;*/
+    }
+
+    #about_me_section > #languages_and_tools > span:first-child {
+
+        font-size: 28px;
+    }
+
+    #about_me_section > #languages_and_tools > div:nth-child(2) > span:first-child {
+
+        font-size: 20px;
+    }
+
+    #about_me_section > #languages_and_tools > div:nth-child(2) > span:nth-child(2) {
+
+        font-size: 18px;
+        width: 80vw;
+    }
+
+    /*----------- div 08 degrees ------------------*/
+    #about_me_section > #degrees {
+        top: 8vw;
+    }
+
+    #about_me_section > #degrees > h3 {
+        font-size: 20px;
+    }
+
+    #about_me_section > #degrees > h4 {
+        font-size: 20px;
+    }
+
+    #about_me_section > #degrees > p {
+        position: absolute;
+        left: 3vw;
+        top: 10vw;
+        width: 60vw;
+        font-weight: bold;
+        font-size: 18px;
+
+    }
+
+    /********************** About Education From section ********************************/
+    #about_me_section > #educational_from {
+        top: 15vw;
+
+    }
+
+    #about_me_section > #educational_from > div:nth-child(2) {
+
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        width: 12vw;
+        height: 12vw;
+        /*background-color: blue;*/
+
+    }
+
+    #about_me_section > #educational_from > div:nth-child(3) {
+
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        width: 12vw;
+        height: 12vw;
+
+        /*background-color: red;*/
+    }
+
+    #about_me_section > #educational_from > div:nth-child(2) > a > img {
+
+        width: 10vw;
+        height: 8vh;
+    }
+
+    #about_me_section > #educational_from > div:nth-child(3) > a > img {
+
+        width: 10vw;
+        height: 10vw;
+        /*background-color: red;*/
+    }
+
+    /********************** My Expertis section ********************************/
+    #section_expertis > div:first-child {
+        top: 8.5vh;
+    }
+
+    #section_expertis > div:nth-child(3) > h3 {
+        font-size: 25px;
+    }
+
+    #section_expertis > div:nth-child(3) > div > h4 {
+        font-size: 16px;
+    }
+
+    #section_expertis > div:nth-child(3) > div > h5 {
+        font-size: 14px;
+    }
+
+    #section_expertis > div:nth-child(3) > h3 {
+        font-size: 20px;
+    }
+
+    #section_expertis > div:nth-child(3) {
+        top: 23vh;
+
+    }
+
+    /***************** my project section ******************/
+
+    #section_project {
+        height: 110vh;
+        /*background: yellow;*/
+
+    }
+
+    #section_project > #projects > div {
+
+    }
+
+    #section_project > #projects > div:first-child > img:first-child {
+        position: absolute;
+        top: 0.5vh;
+        width: 34vw;
+        height: 35vh;
+    }
+
+    #section_project > #projects > div:first-child >h4:nth-child(2) {
+        position: absolute;
+        top: 36vh;
+        font-size: 16px;
+        color: #2998be;
+    }
+    #section_project > #projects > div:first-child >h5:nth-child(3) {
+        position: absolute;
+        top: 41vh;
+        font-size: 14px;
+
+    }
+
+    #section_project > #projects > div:nth-child(2) > img:first-child {
+        position: absolute;
+        top: 0.5vh;
+        width: 34vw;
+        height: 35vh;
+    }
+
+    #section_project > #projects > div:nth-child(2) >h4:nth-child(2) {
+        position: absolute;
+        top: 36vh;
+        font-size: 16px;
+    }
+    #section_project > #projects > div:nth-child(2)  >h5:nth-child(3) {
+        position: absolute;
+        top: 41vh;
+        font-size: 14px;
+    }
+
+    #section_project>#view_assingment{
+        position: relative;
+        /*background: rgb(47, 212, 232);*/
+        width: 100vw;
+        height: 10vh;
+        top: 88vh;
+    }
+
+    #section_project>#view_assingment>p{
+        width: 65vw;
+        font-size: 15px;
+    }
+
+    #view_btn>span{
+        top: 1.4vh;
+        left: 1vw;
+        font-size: 14px;
+
+    }
+
+
+
+
+    /********   Gallery Section  **********/
+
+    #section_gallery{
+        height: 110vh;
+    }
+
+    #section_gallery>div:nth-child(3)>img{
+        position: absolute;
+        border: #12cbcb solid 3px;
+        box-shadow: rgb(166, 253, 253) 0px 22px 70px 4px;
+
+    }
+
+    #section_gallery>div:nth-child(3)>img:first-child{
+        width: 30vw;
+        height: 40vh;
+    }
+
+    #section_gallery>div:nth-child(3)>img:nth-child(2){
+        left: 30.5vw;
+        width: 30vw;
+        height: 40vh;
+    }
+    #section_gallery>div:nth-child(3)>img:nth-child(3){
+        left: 61vw;
+        width: 30vw;
+        height: 60vh;
+    }
+    #section_gallery>div:nth-child(3)>img:nth-child(4){
+        top: 40.5vh;
+        width: 20vw;
+        height: 40vh;
+    }
+    #section_gallery>div:nth-child(3)>img:nth-child(5){
+        top: 40.5vh;
+        left: 20.5vw;
+        width: 40vw;
+        height: 40vh;
+    }
+
+    /********   contact section  **********/
+
+    #section_contact>#contact_area>div:first-child{
+        left: 10vw;
+    }
+
+    #section_contact>#contact_area>div:first-child>h5{
+        font-size: 12px;
+        left: -1.5vw;
+    }
+
+    #section_contact>#contact_area>div:nth-child(2){
+        left: 22vw;
+    }
+    #section_contact>#contact_area>div:nth-child(2)>h5{
+        font-size: 12px;
+        left: -1.5vw;
+    }
+
+    #section_contact>#contact_area>div:nth-child(3){
+        left: 37vw;
+    }
+
+    #section_contact>#contact_area>div:nth-child(3)>h5{
+        left: -5vw;
+        font-size: 12px;
+    }
+
+    #section_contact>#contact_area>div:nth-child(4){
+        left: 51vw;
+    }
+
+    #section_contact>#contact_area>div:nth-child(4)>h5{
+        font-size: 12px;
+    }
+
+    #section_contact>#contact_area>div:nth-child(5){
+        left: 63vw;
+    }
+
+    #section_contact>#contact_area>div:nth-child(5)>h5{
+        font-size: 12px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+}
+
+@media screen and (max-width: 768px) {
+
+    #lodo {
+
+        text-shadow: 2px 2px 5px #f10f30;
+        font-size: 40px;
+    }
+
+    header {
+        height: 8vh;
+        padding: 0 23vw;
+    }
+
+    header > h2 {
+        position: absolute;
+        left: 5vw;
+
+    }
+
+    header > nav {
+        /*background: red;*/
+        display: flex;
+        justify-content: space-between;
+        top: 0;
+        bottom: 0;
+        left: 5vw;
+
+
+    }
+
+    header > nav > a {
+        top: 10px;
+        position: relative;
+        font-size: 0.9em;
+        color: black;
+        text-decoration: none;
+        font-weight: 550;
+
+        /*width: 60px;*/
+    }
+
+    header > nav > a:nth-child(2) {
+        width: 68px;
+    }
+
+    /*************  hero section style ***********/
+    #home_section {
+        position: relative;
+        background-image: linear-gradient(#33a9ec, white);
+        height: 100vh;
+
+    }
+
+    #home_section > img:first-child {
+        display: none;
+
+    }
+
+    #home_section > div:nth-child(3) {
+        display: block;
+        position: absolute;
+        width: 40vw;
+        height: 40vw;
+        right: 1vw;
+        top: 10vh;
+
+    }
+
+    #home_section > div:nth-child(3) > img {
+        width: 40vw;
+        height: 40vw;
+    }
+
+    #home_section > img:nth-child(2) {
+        z-index: 55;
+        width: 20vw;
+        height: 15vw;
+        right: 31vw;
+    }
+
+    /********** About me section **********/
+    #about_me_section {
+        /*background: rgba(255, 255, 0, 0.63);*/
+        height: 385vh;
+    }
+
+    .section_bar {
+        top: 8.2vh;
+    }
+
+    .section_bar > span {
+        font-size: 15px;
+    }
+
+    #about_me_section > div:nth-child(4) {
+        display: none;
+    }
+
+    #about_me_section > div:nth-child(3) > h3 {
+        top: 20vh;
+        width: 80vw;
+    }
+
+    #about_me_section > div:nth-child(5) {
+        top: 18vh;
+        height: 50vh;
+    }
+
+    #about_me_section > div:nth-child(5) > div:nth-child(2) {
+        left: 5vw;
+    }
+
+    #about_me_section > div:nth-child(5) > div:nth-child(3) {
+        right: 5vw;
+    }
+
+    #about_me_section > div:nth-child(5) > div:nth-child(4) > button {
+        width: 20vw;
+        height: 5vw;
+
+    }
+
+    #about_me_section > div:nth-child(5) > div:nth-child(4) > button > span {
+        font-size: 15px;
+        font-weight: bold;
+        left: 2vw;
+    }
+
+    #about_me_section > #education_level {
+
+        top: 22vh;
+        width: 96%;
+        left: 2%;
+        height: 95vh;
+
+    }
+
+    #about_me_section > #education_level > img {
+        display: none;
+    }
+
+    #about_me_section > #education_level > div:nth-child(3) {
+        top: 18vh;
+        left: 20vw;
+        /*background-color: red;*/
+    }
+
+    #about_me_section > #education_level > div:nth-child(7) {
+        display: none;
+    }
+
+    #about_me_section > #education_level > div:nth-child(3) {
+        top: 17vh;
+        left: 25vw;
+        width: 50vw;
+        padding-left: 10px;
+        border-radius: 10px;
+        border: 3px ridge #12cbcb;
+        background: ghostwhite;
+        box-shadow: 10px 10px 5px #2fd4e8;
+    }
+
+    #about_me_section > #education_level > div:nth-child(4) {
+        top: 35vh;
+        left: 35vw;
+        width: 50vw;
+        padding-left: 10px;
+        border-radius: 10px;
+        border: 3px ridge #12cbcb;
+        background: ghostwhite;
+        box-shadow: 10px 10px 5px #2fd4e8;
+    }
+
+    #about_me_section > #education_level > div:nth-child(5) {
+        top: 56vh;
+        left: 25vw;
+        width: 50vw;
+        padding-left: 10px;
+        border-radius: 10px;
+        border: 3px ridge #12cbcb;
+        background: ghostwhite;
+        box-shadow: 10px 10px 5px #2fd4e8;
+    }
+
+    #about_me_section > #education_level > div:nth-child(6) {
+        top: 74vh;
+        left: 35vw;
+        width: 50vw;
+        padding-left: 10px;
+        border-radius: 10px;
+        border: 3px ridge #12cbcb;
+        background: ghostwhite;
+        box-shadow: 10px 10px 5px #2fd4e8;
+    }
+
+    #about_me_section > #education_level > div:nth-child(8) {
+        width: 60px;
+        height: 60px;
+        /*background: blue;*/
+        top: 16vh;
+        left: 15vw;
+        border-radius: 100px;
+        border: 2px dashed #4bb4de;
+        outline: 1px dashed #4bb4de;
+        outline-offset: -5px;
+    }
+
+    #about_me_section > #education_level > div:nth-child(9) {
+        position: absolute;
+        width: 60px;
+        height: 60px;
+        /*background: blue;*/
+        top: 36vh;
+        left: 25vw;
+        border-radius: 100px;
+        border: 2px dashed #4bb4de;
+        outline: 1px dashed #4bb4de;
+        outline-offset: -5px;
+        rotate: 0deg;
+    }
+
+    #about_me_section > #education_level > div:nth-child(9) > img {
+        position: absolute;
+        width: 38px;
+        height: 38px;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        margin: auto;
+
+    }
+
+    #about_me_section > #education_level > div:nth-child(10) {
+        position: absolute;
+        width: 60px;
+        height: 60px;
+        /*background: blue;*/
+        top: 56vh;
+        left: 15vw;
+        border-radius: 100px;
+        border: 2px dashed #4bb4de;
+        outline: 1px dashed #4bb4de;
+        outline-offset: -5px;
+    }
+
+    #about_me_section > #education_level > div:nth-child(11) {
+        position: absolute;
+        width: 60px;
+        height: 60px;
+        /*background: blue;*/
+        top: 73vh;
+        left: 25vw;
+        border-radius: 100px;
+        border: 2px dashed #4bb4de;
+        outline: 1px dashed #4bb4de;
+        outline-offset: -5px;
+
+    }
+
+    #about_me_section > #education_level > div {
+        background: white;
+        box-shadow: rgba(47, 212, 232, 0.19) 0px -23px 25px 0px inset, rgb(221, 245, 245) 0px -36px 30px 0px inset, rgb(255, 255, 255) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+
+    }
+
+    /*----------- div 07 Languages and  Tools ------------------*/
+    #about_me_section > #languages_and_tools {
+        /*background: rgba(239, 239, 162, 0.27);*/
+    }
+
+    #about_me_section > #languages_and_tools > div:nth-child(2) > span:nth-child(2) {
+        top: 18vh;
+        font-size: 15px;
+    }
+
+    #about_me_section > #languages_and_tools > div:nth-child(3) {
+        width: 80%;
+        height: 12vh;
+        top: 38vh;
+    }
+
+    #about_me_section > #languages_and_tools > div:nth-child(3) > img {
+        width: 60px;
+        height: 60px;
+    }
+
+    #about_me_section > #languages_and_tools > div:nth-child(4) {
+        width: 80%;
+        height: 12vh;
+        top: 55vh;
+
+    }
+
+    #about_me_section > #languages_and_tools > div:nth-child(4) > img {
+        width: 60px;
+        height: 60px;
+    }
+
+    /*----------- div 08 degrees ------------------*/
+    #about_me_section > #degrees > p {
+        font-size: 15px;
+    }
+
+    #about_me_section > #degrees {
+        top: 0vh;
+        height: 35vh;
+    }
+
+    #about_me_section > #degrees > img {
+        right: 5vw;
+        width: 200px;
+        height: 150px;
+        border: #12cbcb 5px ridge;
+    }
+
+
+    /********* Educational_from **********/
+    #about_me_section > #educational_from {
+        top: 10vh;
+        height: 35vh;
+
+    }
+
+    /*//////////////////////   section Expertis     ////////////////////////////////////////*/
+    #section_expertis {
+        height: 175vh;
+        /*background-color: #e3fc76;*/
+    }
+
+    #section_expertis > div:first-child {
+        top: 8.2vh;
+        font-size: 15px;
+    }
+
+    #section_expertis > div:nth-child(3) {
+
+        position: absolute;
+        top: 20vh;
+        background: rgba(15, 145, 218, 0.1);
+        width: 96%;
+        left: 2%;
+        height: 145vh;
+        border-radius: 10px;
+        box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px, rgb(209, 213, 219) 0px 0px 0px 1px inset;
+
+    }
+
+    #section_expertis > div:nth-child(3) > div {
+        position: absolute;
+        width: 30vw;
+        height: 38vh;
+    }
+
+    #section_expertis > div:nth-child(3) > div:nth-child(2) {
+        background: white;
+        top: 12vh;
+        left: 10vw;
+    }
+
+    #section_expertis > div:nth-child(3) > div:nth-child(3) {
+        background: white;
+        top: 12vh;
+        left: 30vw;
+    }
+
+    #section_expertis > div:nth-child(3) > div:nth-child(4) {
+        background: white;
+        top: 56vh;
+        left: 10vw;
+    }
+
+    #section_expertis > div:nth-child(3) > div:nth-child(5) {
+        background: white;
+        top: 56vh;
+        left: 47vw;
+    }
+
+    #section_expertis > div:nth-child(3) > div:nth-child(6) {
+        background: white;
+        top: 100vh;
+        left: 10vw;
+    }
+
+    /* ///////////////////////  my project section /////////////////////////////*/
+
+
+    #section_project {
+        height: 115vh;
+        /*background: yellow;*/
+
+    }
+
+    #section_project > #projects > div {
+        width: 40vw;
+        height: 60vh;
+
+    }
+    #section_project > #projects > div:nth-child(2){
+        right: 7%;
+    }
+    #section_project > #projects > div:first-child{
+        left:7%;
+    }
+
+    #section_project > #projects > div:first-child > img:first-child {
+        position: absolute;
+        top: 0.5vh;
+        width: 38vw;
+        height: 35vh;
+
+    }
+
+    #section_project > #projects > div:first-child >h4:nth-child(2) {
+        position: absolute;
+        top: 36vh;
+        font-size: 16px;
+        color: #2998be;
+    }
+    #section_project > #projects > div:first-child >h5:nth-child(3) {
+        position: absolute;
+        top: 41vh;
+        font-size: 14px;
+
+    }
+
+    #section_project > #projects > div:nth-child(2) > img:first-child {
+        position: absolute;
+        top: 0.5vh;
+        width: 38vw;
+        height: 35vh;
+    }
+
+    #section_project > #projects > div:nth-child(2) >h4:nth-child(2) {
+
+        top: 38vh;
+        font-size: 14px;
+    }
+    #section_project > #projects > div:nth-child(2)  >h5:nth-child(3) {
+        position: absolute;
+        top: 43vh;
+        font-size: 14px;
+    }
+
+    #section_project > #projects > div:first-child >h4:nth-child(2) {
+        top: 38vh;
+        font-size: 14px;
+    }
+    #section_project > #projects > div:first-child >h5:nth-child(3) {
+        position: absolute;
+        top: 43vh;
+        font-size: 14px;
+    }
+
+    #section_project>button:nth-child(5){
+        right: 40%;
+        top: 78%;
+    }
+
+    #section_project>#view_assingment>p{
+        width: 70vw;
+    }
+
+    #section_project>button:nth-child(3){
+        left: 40%;
+        top: 78%;
+    }
+
+    #section_project>#view_assingment{
+        position: relative;
+        /*background: rgb(47, 212, 232);*/
+        width: 100vw;
+        height: 10vh;
+        top: 98vh;
+    }
+
+    #view_btn{
+        width: 22vw;
+        height: 6vw;
+    }
+    #view_btn>span{
+
+        font-size: 14px;
+
+    }
+    #view_btn>sub>img{
+        top: -0.8vh;
+        left: 6vw;
+        bottom: 2vh;
+
+    }
+
+    /* /////////////////   section Gallery  //////////////////////////////*/
+
+
+    #section_gallery>div:nth-child(3)>img{
+        position: absolute;
+        border: #12cbcb solid 3px;
+        box-shadow: rgb(166, 253, 253) 0px 22px 70px 4px;
+
+    }
+    #section_gallery>div:nth-child(3)>img:hover{
+        box-shadow: rgb(74, 74, 246) 0px 7px 29px 0px;
+        transform: scale(1.1);
+        z-index: 55;
+        transition-duration: 1s;
+        border: #29a1a1 solid 4px;
+
+    }
+
+    /* /////////////////   section contact 01  //////////////////////////////*/
+
+
+    #section_contact > #div_messages >#messege_area{
+
+        left: 40%;
+        top: 15%;
+
+    }
+
+
+    #section_contact > #div_messages >#messege_area > input,textarea{
+        margin-bottom: 6px;
+        width: 300px;
+
+    }
+
+    #section_contact > #div_messages >#messege_area > textarea{
+        width: 400px;
+        height: 80px;
+
+    }
+
+    /* ///////////////////// contact section 02 contact_area /////////////////// */
+
+    #section_contact>#contact_area{
+
+        position: absolute;
+        width: 100%;
+        height: 100px;
+        /*background: #bbfc76;*/
+        top: 79vh;
+
+    }
+    /********   contact section  **********/
+
+    #section_contact>#contact_area>div:first-child{
+        left: 10vw;
+    }
+
+    #section_contact>#contact_area>div:nth-child(2){
+        left: 27vw;
+    }
+
+    #section_contact>#contact_area>div:nth-child(3){
+        left: 43vw;
+    }
+
+    #section_contact>#contact_area>div:nth-child(4){
+        left: 62vw;
+    }
+
+    #section_contact>#contact_area>div:nth-child(5){
+        left: 77vw;
+    }
+
+
+
+
+}

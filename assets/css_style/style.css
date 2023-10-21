@@ -90,63 +90,67 @@ header>nav>a:hover{
 }
 
 #home_section>div:nth-child(3){
+    display: none;
+}
+
+#home_section>div:nth-child(4){
     position: absolute;
     left: 5vw;
     top: 20vh;
 
 }
 
-#home_section>div:nth-child(3)>dl{
+#home_section>div:nth-child(4)>dl{
     margin-bottom: 4vh;
     display: block;
 }
-#home_section>div:nth-child(3)>dl:first-child,dl:nth-child(2){
+#home_section>div:nth-child(4)>dl:first-child,dl:nth-child(2){
     font-size: 36px;
     font-weight: bold;
 }
 
-#home_section>div:nth-child(3)>dl:nth-child(3)>span{
+#home_section>div:nth-child(4)>dl:nth-child(3)>span{
     font-weight: 750;
     font-size: 64px;
     margin-right: 2vw;
 }
 
-#home_section>div:nth-child(3)>dl:nth-child(3)>span:last-child{
+#home_section>div:nth-child(4)>dl:nth-child(3)>span:last-child{
     color: #0b6a9f;
 }
-#home_section>div:nth-child(3)>dl:nth-child(4){
+#home_section>div:nth-child(4)>dl:nth-child(4){
     color: orange;
     font-size: 24px;
     font-weight: bold;
 }
-#home_section>div:nth-child(4){
+#home_section>div:nth-child(5){
     position: absolute;
     /*border: black solid 5px;*/
     bottom: 7vw;
     left: 5vw;
 }
-#home_section>div:nth-child(4)>img{
+#home_section>div:nth-child(5)>img{
     margin-right: 2vw;
 }
-#home_section>div:nth-child(4)>img:hover{
+#home_section>div:nth-child(5)>img:hover{
     background: #0F91DA;
     width: 30px;
     height: 30px;
     border-radius: 100%;
 }
 
-#home_section>div:nth-child(5){
+#home_section>div:nth-child(6){
     position: absolute;
     /*border: black solid 5px;*/
     bottom: 4vw;
     left: 50vw;
     font-size: 24px;
 }
-#home_section>div:nth-child(5)>span:nth-child(2),span:nth-child(4){
+#home_section>div:nth-child(6)>span:nth-child(2),span:nth-child(4){
     font-size: 24px;
     color: gray;
 }
-#home_section>div:nth-child(5)>span:first-child,span:nth-child(3){
+#home_section>div:nth-child(6)>span:first-child,span:nth-child(3){
     font-size: 30px;
     font-weight: bold;
     color: #0F91DA;
@@ -160,7 +164,7 @@ header>nav>a:hover{
     position: relative;
     /*background: pink;*/
     width: 100%;
-    height: 500vh;
+    height: 520vh;
 
 }
 
@@ -223,7 +227,7 @@ header>nav>a:hover{
     /*background: red;*/
     position: relative;
     width: calc((100vw - 11vw)/2);
-    height: 30vw;
+    height: 10vw;
     top: 10vw;
     left: 5vw;
 }
@@ -234,7 +238,6 @@ header>nav>a:hover{
     left: 0;
     font-size: 36px;
     font-weight: 700;
-
 
 }
 #about_me_section>div:nth-child(3)>h3{
@@ -251,14 +254,15 @@ header>nav>a:hover{
     top: 10vw;
     /*background: #e3fc76;*/
     width: calc((100vw - 11vw)/2);
-    height: 50vw;
+    height: 30vw;
 
 }
 
 #about_me_section>div:nth-child(4)>img:first-child{
     position: absolute;
     /*background: blue;*/
-    right: 0;
+    right: 2vw;
+    top: 3vw;
 
 }
 #about_me_section>div:nth-child(4)>img:nth-child(2){
@@ -276,7 +280,7 @@ header>nav>a:hover{
 
 #about_me_section>div:nth-child(5){
     position: relative;
-    top: 10vw;
+    top: 70vh;
     background: #5ab3e63d;
     height: 35vw;
     width:96%;
@@ -329,9 +333,8 @@ header>nav>a:hover{
 }
 
 #about_me_section>div:nth-child(5)>div>h3>span:nth-child(3){
-    color: #726d6d;
+    color: #404046;
     font-size: 18px;
-
 
 }
 
@@ -368,8 +371,6 @@ header>nav>a:hover{
     bottom: 0;
     margin: auto;
     font-weight: bold;
-
-
 }
 #about_me_section>div:nth-child(5)>div:nth-child(4)>button>img{
     position: absolute;
@@ -402,7 +403,7 @@ header>nav>a:hover{
 #about_me_section>#education_level {
 
     position: relative;
-    top: 15vw;
+    top: 80vh;
     background: rgba(15, 145, 218, 0.1);
     width:96%;
     left: 2%;
@@ -457,6 +458,7 @@ header>nav>a:hover{
 }
 
 #about_me_section>#education_level>div:nth-child(4){
+    /*background: red;*/
     top: 49vh;
     left: 24vw;
 }
@@ -479,6 +481,7 @@ header>nav>a:hover{
 #about_me_section>#education_level>div:nth-child(5){
     top: 37vh;
     right: 21vw;
+
 }
 #about_me_section>#education_level>div:nth-child(5)>span:first-child{
     font-size: 18px;
@@ -508,7 +511,7 @@ header>nav>a:hover{
 
 #about_me_section>#education_level>div:nth-child(7){
     top: 84vh;
-    right: 46vw
+    right: 46vw;
 }
 #about_me_section>#education_level>div:nth-child(7)>span:first-child{
     font-size: 18px;
@@ -548,8 +551,6 @@ header>nav>a:hover{
     right: 20vw;
     rotate: 60deg;
     border-radius: 50%;
-
-
 }
 
 #about_me_section>#education_level>div>img{
@@ -561,7 +562,7 @@ header>nav>a:hover{
 
 #about_me_section>#languages_and_tools {
     position: relative;
-    top: 20vw;
+    top: 90vh;
     height: 100vh;
     /*background: yellow;*/
 }
@@ -638,9 +639,6 @@ header>nav>a:hover{
     transform: rotateY(360deg);
 }
 
-
-
-
 #about_me_section>#languages_and_tools>div:nth-child(4){
     width:70vw;
     height: 8vw;
@@ -672,7 +670,7 @@ header>nav>a:hover{
 
 #about_me_section>#degrees{
     position: relative;
-    top: 20vw;
+    top: 90vh;
     background: rgba(166, 253, 253, 0.16);
     width:96%;
     left: 2%;
@@ -721,13 +719,15 @@ header>nav>a:hover{
 
 }
 
+/******** Educational_from ***********/
+
 #about_me_section>#educational_from{
     background-color: rgba(15, 145, 218, 0.1);
     position: relative;
-    top: 25vw;
+    top: 100vh;
     width:96%;
     left: 2%;
-    height: 50vh;
+    height: 65vh;
     border-radius: 1vw;
     box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px, rgb(209, 213, 219) 0px 0px 0px 1px inset;
 }
@@ -1046,7 +1046,6 @@ header>nav>a:hover{
 
 #section_project > #projects > div:first-child{
     left:13%;
-
 }
 #section_project > #projects > div:first-child > img:first-child , div:nth-child(2) > img:first-child{
     width: 34vw;
@@ -1226,6 +1225,81 @@ header>nav>a:hover{
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
 }
 
+#section_project>#view_assingment{
+    position: relative;
+    /*background: rgb(47, 212, 232);*/
+    width: 100vw;
+    height: 10vh;
+    top: 88vh;
+
+}
+
+#section_project>#view_assingment>p{
+
+    top: 0;
+    bottom: 0;
+    margin: auto;
+
+    width: 60vw;
+    height: fit-content;
+    position: absolute;
+    left: 20vw;
+    color: #1c1cd5;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#view_btn{
+    top: -2vh;
+    right: 0;
+    position: absolute;
+    width: 17vw;
+    height: 4vw;
+    background-color: #3498db;
+    color: white;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+    border-radius: 10px;
+    border: #0b6a9f solid 2px;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+
+}
+
+#view_btn>span{
+    position: absolute;
+    top: 2vh;
+    left: 1vw;
+    bottom: 0;
+    margin: auto;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+#view_btn:hover{
+    border: #2fd4e8 10px;
+    box-shadow: 0px 0px 10px rgb(47, 212, 232);
+}
+#view_btn:active{
+    transform: scale(0.95);
+    box-shadow: 0px 0px 10px rgb(238, 65, 65);
+    color: #153403;
+}
+
+
+#view_btn>sub>img{
+    position: absolute;
+    height: fit-content;
+    width: fit-content;
+    top: 0;
+    left: 5vw;
+    bottom: 1.5vh;
+    margin: auto;
+    move-to:initial;
+}
+
+
+
 /* /////////////////   section Gallery  //////////////////////////////*/
 
 #section_gallery{
@@ -1369,7 +1443,7 @@ header>nav>a:hover{
     /*bottom: 0;*/
 
     height: 100vh;
-    background: #eaefd9;
+    background: rgba(47, 212, 232, 0.07);
 
 }
 
@@ -1488,7 +1562,6 @@ header>nav>a:hover{
     width: 100%;
     height: 100px;
     /*background: #bbfc76;*/
-
     top: 79vh;
 
 }
@@ -1505,11 +1578,9 @@ header>nav>a:hover{
     position: absolute;
     width: 35px;
     height: 35px;
-
     left: 0;
     right: 0;
     margin: auto;
-
 }
 #section_contact>#contact_area>div>h5{
     position: absolute;
@@ -1517,7 +1588,7 @@ header>nav>a:hover{
     width: fit-content;
 
     font-size: 15px;
-
+    color: #29a1a1;
     top: 20px;
     bottom: 0;
     left: 0;
@@ -1526,27 +1597,137 @@ header>nav>a:hover{
 }
 
 #section_contact>#contact_area>div:first-child{
-
-    margin-left:80px ;
+    position: absolute;
+    left: 10vw;
+    width: 50px;
+    height: 50px;
+    /*background: red;*/
+    border-radius: 100%;
+    border: 3px ridge #15cce3;
+}
+#section_contact>#contact_area>div:first-child>a>img{
+   position: absolute;
+   top: 0;
+   bottom: 0;
+   left: 0;
+    right: 0;
+    margin: auto;
+}
+#section_contact>#contact_area>div:first-child>h5{
+    position: absolute;
+    color: #32c4c4;
+    font-weight: bold;
+    top: 10vh;
+    left: -1vw;
 }
 
 #section_contact>#contact_area>div:nth-child(2){
-
-    left: 200px;
+    position: absolute;
+    left: 20vw;
+    width: 50px;
+    height: 50px;
+    /*background: red;*/
+    border-radius: 100%;
+    border: 3px ridge #15cce3;
 }
+
+#section_contact>#contact_area>div:nth-child(2)>a>img{
+   position: absolute;
+   top: 0;
+   bottom: 0;
+   left: 0;
+    right: 0;
+    margin: auto;
+}
+#section_contact>#contact_area>div:nth-child(2)>h5{
+    position: absolute;
+    color: #32c4c4;
+    font-weight: bold;
+    top: 10vh;
+    left: -1vw;
+}
+
 #section_contact>#contact_area>div:nth-child(3){
 
-    width: 200px;
-    left: 320px;
+    position: absolute;
+    left: 33vw;
+    width: 50px;
+    height: 50px;
+    /*background: red;*/
+    border-radius: 100%;
+    border: 3px ridge #15cce3;
 }
-#section_contact>#contact_area>div:nth-child(4){
+#section_contact>#contact_area>div:nth-child(3)>a>img{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+#section_contact>#contact_area>div:nth-child(3)>h5{
+    position: absolute;
+    color: #32c4c4;
+    font-weight: bold;
+    top: 10vh;
+    left: -5vw;
+}
 
-    left: 540px;
+#section_contact>#contact_area>div:nth-child(4){
+    position: absolute;
+    left: 45vw;
+    width: 50px;
+    height: 50px;
+    /*background: red;*/
+    border-radius: 100%;
+    border: 3px ridge #15cce3;
 }
+#section_contact>#contact_area>div:nth-child(4)>a>img{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+#section_contact>#contact_area>div:nth-child(4)>h5{
+    position: absolute;
+    color: #32c4c4;
+    font-weight: bold;
+    top: 10vh;
+    left: 0vw;
+}
+
 #section_contact>#contact_area>div:nth-child(5){
-    width: 200px;
-    left: 640px;
+    position: absolute;
+    left: 55vw;
+    width: 50px;
+    height: 50px;
+    /*background: red;*/
+    border-radius: 100%;
+    border: 3px ridge #15cce3;
 }
+
+#section_contact>#contact_area>div:nth-child(5)>a>img{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+#section_contact>#contact_area>div:nth-child(5)>h5{
+    width: 120px;
+    height: 20px;
+    position: absolute;
+    color: #32c4c4;
+    font-weight: bold;
+    top: 10vh;
+    left: -1.5vw;
+}
+
 
 body>#section_footer{
     position: relative;
@@ -1567,521 +1748,8 @@ body>#section_footer>h3{
     font-family: 'Brush Script MT', 'Noto Sans SC', sans-serif;
 
 }
-/*///////////////////////////////////////////////////////////////////////////////////////*/
-/*///////////////////////////////////////////////////////////////////////////////////////*/
 
-@media screen and (max-width: 1025px) {
-
-    /********************** Nav section ********************************/
-    #lodo {
-        font-family: 'Brush Script MT', 'Noto Sans SC', sans-serif;
-        text-shadow: 2px 2px 5px #eaefd9;
-        font-size: 5px;
-    }
-
-    header {
-        height: 8vh;
-    }
-
-    header > nav > a {
-        font-size: 1em;
-        top: 5px;
-
-    }
-
-    header > h2:first-child {
-        font-size: 2em;
-        color: rgba(239, 239, 162, 0.27);
-        user-select: none;
-        /*font-family: 'Lobster', cursive;*/
-        font-family: 'Noto Sans SC', sans-serif;
-        /*font-family: 'Roboto Condensed', sans-serif;*/
-    }
-
-    /**********************  hero section style  ****************/
-    #home_section > img:first-child {
-        position: absolute;
-        height: 80vh;
-        width: 45vw;
-        right: -6vw;
-    }
-
-    /*************** About me section ************/
-    #about_me_section {
-        position: relative;
-        background: #f5e9ed;
-        width: 100%;
-        height: 430vh;
-    }
-
-    .section_bar {
-        top: 10.5vh;
-        z-index: 500;
-        width: 50vw;
-        height: 2vw;
-        position: sticky;
-        box-shadow: rgb(221, 245, 245) 5px 3px 6px, rgb(221, 245, 245) 0px 3px 6px;
-        border-bottom-right-radius: 45px;
-        border-top-right-radius: 45px;
-        background: #12cbcb;
-
-    }
-
-    /****** div03 *******/
-    #about_me_section > div:nth-child(3) {
-
-        height: 35vw;
-
-    }
-
-    #about_me_section > div:nth-child(4) {
-
-        /*background: #e3fc76;*/
-        width: calc((100vw - 20vw) / 2);
-        height: 40vw;
-
-    }
-
-    #about_me_section > div:nth-child(4) > img:first-child {
-        top: 3vh;
-        /*background: blue;*/
-        right: 0;
-
-    }
-
-    #about_me_section > div:nth-child(4) > img:nth-child(3) {
-
-        right: 7vw;
-        top: -5vh;
-    }
-
-    #about_me_section > div:nth-child(4) > img:nth-child(2) {
-        position: absolute;
-        /*background: #f12f2f;*/
-        right: 7vw;
-        top: 4vw;
-        font-size: 20px;
-    }
-
-    #about_me_section > div:nth-child(5) > div:nth-child(2) > h3 {
-        font-size: 18px;
-        margin-bottom: 3vh;
-
-    }
-
-    #about_me_section > div:nth-child(5) > h2 {
-        font-size: 20px;
-    }
-
-    #about_me_section > div:nth-child(5) > div > h3 > div:first-child {
-
-        width: 12px;
-        aspect-ratio: 1/1;
-
-    }
-
-    #about_me_section > div:nth-child(5) > div:nth-child(3) > h3 {
-        font-size: 18px;
-        margin-bottom: 3vh;
-    }
-
-    #about_me_section > div:nth-child(5) > div > h3 > span:nth-child(3) {
-        color: #525050;
-        font-size: 18px;
-
-    }
-
-    #about_me_section > div:nth-child(5) > div:nth-child(4) {
-        width: 15vw;
-        height: 4vw;
-    }
-
-    #about_me_section > div:nth-child(5) > div:nth-child(4) > button {
-        width: 15vw;
-        height: 4vw;
-
-    }
-
-    #about_me_section > div:nth-child(5) > div:nth-child(4) > button > span {
-        font-size: 15px;
-        left: 1.5vw;
-    }
-
-    #about_me_section > div:nth-child(5) > div:nth-child(4) > button:active {
-
-        font-size: 15px;
-    }
-
-
-    /********************** About Education section ********************************/
-    #about_me_section > #education_level {
-        height: 80vh;
-
-    }
-
-
-    #about_me_section > #education_level > span {
-
-        font-size: 20px;
-        /*background: red;*/
-    }
-
-    #about_me_section > #education_level > img {
-
-        top: 90px;
-        left: 0;
-        bottom: 0;
-        right: 0;
-        width: 12vw;
-        height: 28vw;
-        /*background-color: red;*/
-
-    }
-
-    #about_me_section > #education_level > div:nth-child(3) {
-        top: 13vh;
-        left: 40vw;
-        /*background-color: red;*/
-    }
-
-    #about_me_section > #education_level > div:nth-child(3) > span:first-child {
-        font-size: 15px;
-
-    }
-
-    #about_me_section > #education_level > div:nth-child(3) > span:nth-child(2) {
-        font-size: 15px;
-
-    }
-
-    #about_me_section > #education_level > div:nth-child(4) {
-        top: 42vh;
-        left: 20vw;
-    }
-
-    #about_me_section > #education_level > div:nth-child(4) > span:first-child {
-        font-size: 15px;
-    }
-
-    #about_me_section > #education_level > div:nth-child(4) > span:nth-child(2) {
-        font-size: 15px;
-    }
-
-    #about_me_section > #education_level > div:nth-child(4) > span:nth-child(3) {
-        font-size: 15px;
-    }
-
-    #about_me_section > #education_level > div:nth-child(5) {
-        top: 31.5vh;
-        right: 17vw;
-
-    }
-
-    #about_me_section > #education_level > div:nth-child(5) > span:first-child {
-        font-size: 15px;
-
-    }
-
-    #about_me_section > #education_level > div:nth-child(5) > span:nth-child(2) {
-        font-size: 15px;
-    }
-
-    #about_me_section > #education_level > div:nth-child(6) {
-        top: 56vh;
-        right: 21vw;
-    }
-
-    #about_me_section > #education_level > div:nth-child(6) > span:first-child {
-        font-size: 15px;
-
-    }
-
-    #about_me_section > #education_level > div:nth-child(6) > span:nth-child(2) {
-        font-size: 15px;
-
-    }
-
-    #about_me_section > #education_level > div:nth-child(7) {
-        top: 74vh;
-        right: 45.5vw;
-
-    }
-
-    #about_me_section > #education_level > div:nth-child(7) > span:first-child {
-        font-size: 15px;
-        font-weight: bold;
-
-    }
-
-    #about_me_section > #education_level > div:nth-child(8) {
-        /*background: red;*/
-        top: 11vh;
-        left: 34.5vw;
-        rotate: 10deg;
-    }
-
-    #about_me_section > #education_level > div:nth-child(8) > img {
-        width: 55px;
-        height: 55px;
-
-    }
-
-    #about_me_section > #education_level > div:nth-child(9) {
-        right: 13vw;
-        top: 26vh;
-        rotate: -35deg;
-    }
-
-    #about_me_section > #education_level > div:nth-child(9) > img {
-        width: 55px;
-        height: 55px;
-    }
-
-    #about_me_section > #education_level > div:nth-child(10) {
-
-        top: 36vh;
-        left: 16vw;
-        rotate: 38deg;
-    }
-
-    #about_me_section > #education_level > div:nth-child(10) > img {
-        width: 50px;
-        height: 50px;
-        top: 36vh;
-        left: 15vw;
-        rotate: 280deg;
-    }
-
-    #about_me_section > #education_level > div:nth-child(11) {
-        width: 50px;
-        height: 50px;
-
-        top: 50vh;
-        right: 17vw;
-
-        rotate: 60deg;
-    }
-
-    /*----------- div 07 abut me Languages and  Tools ------------------*/
-    #about_me_section > #languages_and_tools {
-        position: relative;
-        top: 20vw;
-        height: 100vh;
-        background: yellow;
-    }
-
-    #about_me_section > #languages_and_tools > span:first-child {
-
-        font-size: 28px;
-    }
-
-    #about_me_section > #languages_and_tools > div:nth-child(2) > span:first-child {
-
-        font-size: 20px;
-    }
-
-    #about_me_section > #languages_and_tools > div:nth-child(2) > span:nth-child(2) {
-
-        font-size: 18px;
-        width: 80vw;
-    }
-
-    /*----------- div 08 degrees ------------------*/
-    #about_me_section > #degrees {
-        top: 8vw;
-    }
-
-    #about_me_section > #degrees > h3 {
-        font-size: 20px;
-    }
-
-    #about_me_section > #degrees > h4 {
-        font-size: 20px;
-    }
-
-    #about_me_section > #degrees > p {
-        position: absolute;
-        left: 3vw;
-        top: 10vw;
-        width: 60vw;
-        font-weight: bold;
-        font-size: 18px;
-
-    }
-
-    /********************** About Education From section ********************************/
-    #about_me_section > #educational_from {
-        top: 15vw;
-
-    }
-
-    #about_me_section > #educational_from > div:nth-child(2) {
-
-        top: 0;
-        bottom: 0;
-        margin: auto;
-        width: 12vw;
-        height: 12vw;
-        /*background-color: blue;*/
-
-    }
-
-    #about_me_section > #educational_from > div:nth-child(3) {
-
-        top: 0;
-        bottom: 0;
-        margin: auto;
-        width: 12vw;
-        height: 12vw;
-
-        /*background-color: red;*/
-    }
-
-    #about_me_section > #educational_from > div:nth-child(2) > a > img {
-
-        width: 10vw;
-        height: 8vh;
-    }
-
-    #about_me_section > #educational_from > div:nth-child(3) > a > img {
-
-        width: 10vw;
-        height: 10vw;
-        /*background-color: red;*/
-    }
-
-    /********************** My Expertis section ********************************/
-    #section_expertis > div:first-child {
-        top: 8.5vh;
-    }
-
-    #section_expertis > div:nth-child(3) > h3 {
-        font-size: 25px;
-    }
-
-    #section_expertis > div:nth-child(3) > div > h4 {
-        font-size: 16px;
-    }
-
-    #section_expertis > div:nth-child(3) > div > h5 {
-        font-size: 14px;
-    }
-
-    #section_expertis > div:nth-child(3) > h3 {
-        font-size: 20px;
-    }
-
-    #section_expertis > div:nth-child(3) {
-        top: 23vh;
-
-    }
-
-    /************* my project section ***********/
-    #section_project {
-        height: 100vh;
-        /*background: yellow;*/
-
-    }
-
-    #section_project > #projects > div {
-
-    }
-
-    #section_project > #projects > div:first-child > img:first-child {
-        position: absolute;
-        top: 0.5vh;
-        width: 34vw;
-        height: 35vh;
-    }
-
-    #section_project > #projects > div:first-child >h4:nth-child(2) {
-        position: absolute;
-        top: 36vh;
-        font-size: 16px;
-        color: #2998be;
-    }
-    #section_project > #projects > div:first-child >h5:nth-child(3) {
-        position: absolute;
-        top: 41vh;
-        font-size: 14px;
-
-    }
-
-    #section_project > #projects > div:nth-child(2) > img:first-child {
-        position: absolute;
-        top: 0.5vh;
-        width: 34vw;
-        height: 35vh;
-    }
-
-    #section_project > #projects > div:nth-child(2) >h4:nth-child(2) {
-        position: absolute;
-        top: 36vh;
-        font-size: 16px;
-    }
-    #section_project > #projects > div:nth-child(2)  >h5:nth-child(3) {
-        position: absolute;
-        top: 41vh;
-        font-size: 14px;
-    }
-
-    /********   Gallery Section  **********/
-
-    #section_gallery{
-        height: 110vh;
-    }
-
-    #section_gallery>div:nth-child(3)>img{
-        position: absolute;
-        border: #12cbcb solid 3px;
-        box-shadow: rgb(166, 253, 253) 0px 22px 70px 4px;
-
-    }
-
-    #section_gallery>div:nth-child(3)>img:first-child{
-        width: 30vw;
-        height: 40vh;
-    }
-
-    #section_gallery>div:nth-child(3)>img:nth-child(2){
-        left: 30.5vw;
-        width: 30vw;
-        height: 40vh;
-    }
-    #section_gallery>div:nth-child(3)>img:nth-child(3){
-        left: 61vw;
-        width: 30vw;
-        height: 60vh;
-    }
-    #section_gallery>div:nth-child(3)>img:nth-child(4){
-        top: 40.5vh;
-        width: 20vw;
-        height: 40vh;
-    }
-    #section_gallery>div:nth-child(3)>img:nth-child(5){
-        top: 40.5vh;
-        left: 20.5vw;
-        width: 40vw;
-        height: 40vh;
-    }
-
-    /********   do not change contact section  **********/
-
-
-
-
-
-
-
-
-
-
-
-
-
-}
-
-
+/*************************************** Media quree *******************************************/
 
 
 

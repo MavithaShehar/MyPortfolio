@@ -7,6 +7,7 @@
 
     <link rel="stylesheet" href="assets/css_style/normalize.css">
     <link rel="stylesheet" href="assets/css_style/style.css">
+    <link rel="stylesheet" href="assets/css_style/media.css">
     <link rel="stylesheet" href="assets/css_style/preloder.css">
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
 
@@ -34,7 +35,7 @@
 
 <div id="preloader">
     <div id="preloader_over_layer"></div>
-    <img src="assets/image/preloder/prelogo_gpn.gif" alt="">
+    <img src="assets/image/preloder/pre_loader.gif" alt="">
 </div>
 
 <header>
@@ -56,6 +57,10 @@
 
     <img src="assets/image/hero_section/mypic_01.png" alt="my_image"  data-aos="fade-up-left">
     <img src="assets/image/hero_section/Rectangle%2016.png" alt="language_image" data-aos="zoom-in-down">
+    <div>
+        <img src="assets/image/hero_section/mypic_03.png" alt="" data-aos="fade-up-left">
+    </div>
+
 
     <div >
         <dl data-aos="fade-right" style="transition-duration: 1.5s">Hello</dl>
@@ -218,7 +223,7 @@
 
         <div><span>More</span></div>
 
-        <div>
+        <div id="education_img">
             <img src="../assets/image/About%20me/bookmark.png" alt="">
         </div>
         <div>
@@ -379,10 +384,8 @@
 
 
         <button class="around_button">
-            <img src="assets/image/projects/next-left.png" alt="View  Assingment">
+            <img src="assets/image/projects/next-left.png" alt="View Project">
         </button>
-
-
 
     <div id="projects">
 
@@ -407,8 +410,23 @@
     </div>
 
     <button class="around_button">
-        <img src="assets/image/projects/next-right.png" alt="DownloadIcon">
+        <img src="assets/image/projects/next-right.png" alt="View Project">
     </button>
+
+    <div id="view_assingment">
+
+        <p> <q>Clickhere</q> to view my project and assignment.
+
+            <a href="assignments.html#assignment_pag">
+                <button id="view_btn"><span>View Assingment</span>
+                    <sub><img src="assets/image/projects/View Assingment.png"
+                              alt="View Assingment Icon" width="20" height="20"> </sub>
+                </button>
+            </a>
+        </p>
+
+
+    </div>
 
 
 
@@ -532,26 +550,7 @@
 
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
-<script>
-    AOS.init();
-
-    // window.onload = () =>{
-    //     console.log("A");
-    //     $('#preloader').css("display","none");
-    // }
-
-    window.addEventListener ("load",() =>{
-        console.log("A");
-        $('#preloader').css("display","none");
-    });
-
-    document.addEventListener("DOMContentLoaded", () =>{
-        console.log("B");
-    });
-
-    $(window).ready(() =>{
-        console.log("C");
-    });
+<script src="assets/js/pre_loader.js">
 
 </script>
 
