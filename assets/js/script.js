@@ -38,12 +38,12 @@ $("#navbar-close-icon").on("click" , () => {
 
 });
 
-    $(".mobile").on("click",()=> {
-        $("#navbar-bg").css("display", "none");
-        $("header > nav").css("display", "none");
-        $("#navbar-mobile-icon").css("display" , "block");
-        $("#navbar-close-icon").css("display" , "none");
-    });
-
+//
+// $(".mobile").on("click",()=> {
+//     $("#navbar-bg").css("display", "none");
+//     $("header > nav").css("display", "none");
+//     $("#navbar-mobile-icon").css("display" , "block");
+//     $("#navbar-close-icon").css("display" , "none");
+// });
 
 
