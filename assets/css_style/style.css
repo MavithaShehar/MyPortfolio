@@ -1,7 +1,39 @@
-/*header style*/
+/*scroll bar*/
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color:#2D31FA;
+    border-radius: 10px;
+    border: 1px solid #29a1a1;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #3bcbde;
+
+}
+
+::-webkit-scrollbar-track {
+    background-color: #ddf5f5;
+}
+
+::-webkit-scrollbar {
+    background-color: #15cce3;
+}
+
+
 
 body{
     overflow-x: hidden;
+    /*background: red;*/
+}
+
+#main-section {
+    max-width: 1366px;
+    margin: unset;
+   /*margin: auto;*/
+
 }
 
 *{
@@ -13,21 +45,22 @@ body{
 }
 
 h1,h2,h3,h4,h5,span{
-    font-family: 'poppins',sans-serif;
+    font-family: 'Roboto Slab', serif;
 }
 
 /************ nav bar **********/
 
 #lodo{
-    font-family: 'Brush Script MT', 'Noto Sans SC', sans-serif;
+    font-family: 'Pacifico', cursive;
     text-shadow: 2px 2px 5px red;
-    font-size: 40px;
+    font-size: 30px;
+    transition-duration: 2s;
 }
 
 header{
     position: fixed;
-    width: 100%;
-    height: 10vh;
+    width: 100vw;
+    height: 8vh;
     top: 0;
     left: 0;
     padding: 1.5vh 100px;
@@ -61,12 +94,32 @@ header>nav>a:hover{
     color: #fcfcfc;
 }
 
+#navbar-mobile-icon ,
+#navbar-close-icon {
+    position: absolute;
+    display: none;
+    right: 8vw;
+    top: 15px;
+    font-size: 18px;
+    cursor: pointer;
+
+}
+
+#navbar-mobile-icon:hover ,
+#navbar-close-icon:hover {
+    color: white;
+    transform: scale(1.1);
+
+}
+
+
 /*************  hero section style ***********/
 
 #home_section{
     position: relative;
     background-image: linear-gradient(#33a9ec, white);
     height: 100vh;
+    width: 100vw;
 
 }
 
@@ -163,7 +216,7 @@ header>nav>a:hover{
 #about_me_section{
     position: relative;
     /*background: pink;*/
-    width: 100%;
+    width: 100vw;
     height: 520vh;
 
 }
@@ -199,10 +252,10 @@ header>nav>a:hover{
 /****  div02 ****/
 
 #about_me_section>div:nth-child(2){
-  /*background: red;*/
-  position: relative;
-  height: 4vh;
-  /*width: 10vw;*/
+    /*background: red;*/
+    position: relative;
+    height: 4vh;
+    /*width: 10vw;*/
     right: 0;
     left: 0;
     top: 7vw;
@@ -350,7 +403,7 @@ header>nav>a:hover{
 }
 
 #about_me_section>div:nth-child(5)>div:nth-child(4)>button{
-   position: absolute;
+    position: absolute;
     width: 12vw;
     height: 4vw;
     background-color: #3498db;
@@ -394,7 +447,7 @@ header>nav>a:hover{
 }
 #about_me_section>div:nth-child(5)>div:nth-child(4)>button:hover {
 
-   border: #2fd4e8 10px;
+    border: #2fd4e8 10px;
     box-shadow: 0px 0px 10px rgb(47, 212, 232);
 }
 
@@ -558,7 +611,7 @@ header>nav>a:hover{
     height: 50px;
 }
 
- /*----------- div 07 Languages and  Tools ------------------*/
+/*----------- div 07 Languages and  Tools ------------------*/
 
 #about_me_section>#languages_and_tools {
     position: relative;
@@ -839,7 +892,9 @@ header>nav>a:hover{
     top: 0;
     bottom: 0;
     height: 135vh;
+    width: 100vw;
     /*background-color: #e3fc76;*/
+
 }
 
 #section_expertis>div:first-child{
@@ -943,7 +998,7 @@ header>nav>a:hover{
 }
 
 #section_expertis>div:nth-child(3)>div>h4{
-   height: fit-content;
+    height: fit-content;
     width: fit-content;
 
     font-size: 18px;
@@ -959,7 +1014,7 @@ header>nav>a:hover{
     color: #2a9ee7;
 }
 #section_expertis>div:nth-child(3)>div>h5{
-   height: fit-content;
+    height: fit-content;
     width: fit-content;
     font-size: 15px;
     position: absolute;
@@ -1003,7 +1058,7 @@ header>nav>a:hover{
 
 #section_project{
     position: relative;
-    width: 100%;
+    width: 100vw;
     height: 110vh;
     /*background: yellow;*/
 
@@ -1298,6 +1353,80 @@ header>nav>a:hover{
     move-to:initial;
 }
 
+/*////////////////    section assignment ////////////*/
+
+#assignment_section{
+    position: relative;
+    width: 100vw;
+    height: 100px;
+    top: 0;
+    margin-bottom: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+
+}
+#view_assingment{
+    position: absolute;
+    width: 100vw;
+    height: 100px;
+
+}
+
+#view_assingment > h3 {
+    position: absolute;
+    width: 50vw;
+    height: 20px;
+    text-align: center;
+    top: 0;
+    left: 100px;
+    bottom: 0;
+    margin: auto;
+    color: #1c1cd5;
+    font-size: 24px;
+}
+
+#btn_ass {
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 15px;
+    background-color: rgba(21, 204, 227, 0.13);
+    color: black;
+    border: 5px solid #008CBA;
+
+    width: 200px;
+    height: 50px;
+
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 50vw;
+    right: 0;
+    margin: auto;
+
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.07) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+#btn_ass:hover{
+    background-color: #2fd4e8;
+    border: 4px solid #2a78de;
+    transform: scale(1.1);
+}
+
+#sty_ass {
+    position: absolute;
+    top: 7px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    font-size: 20px;
+    font-weight: bold;
+    color: #837cd5;
+}
 
 
 /* /////////////////   section Gallery  //////////////////////////////*/
@@ -1438,7 +1567,7 @@ header>nav>a:hover{
 #section_contact{
 
     position: relative;
-    width: 100%;
+    width: 100vw;
     /*top: 0;*/
     /*bottom: 0;*/
 
@@ -1446,7 +1575,6 @@ header>nav>a:hover{
     background: rgba(47, 212, 232, 0.07);
 
 }
-
 #section_contact>h2{
 
     position: absolute;
@@ -1468,10 +1596,9 @@ header>nav>a:hover{
     /*background: pink;*/
     top: 24vh;
 
-    }
+}
 
 #section_contact > #div_messages > h1{
-
     position: absolute;
     top: 0;
     bottom: 0;
@@ -1499,6 +1626,7 @@ header>nav>a:hover{
     position: absolute;
     left: 40%;
     top: 15%;
+    /*background: black;*/
 
 }
 
@@ -1571,6 +1699,7 @@ header>nav>a:hover{
     width: 100px;
     height: 80px;
     top: 10px;
+    transition-duration: 3s;
 
 }
 
@@ -1604,12 +1733,13 @@ header>nav>a:hover{
     /*background: red;*/
     border-radius: 100%;
     border: 3px ridge #15cce3;
+
 }
 #section_contact>#contact_area>div:first-child>a>img{
-   position: absolute;
-   top: 0;
-   bottom: 0;
-   left: 0;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
     right: 0;
     margin: auto;
 }
@@ -1632,10 +1762,10 @@ header>nav>a:hover{
 }
 
 #section_contact>#contact_area>div:nth-child(2)>a>img{
-   position: absolute;
-   top: 0;
-   bottom: 0;
-   left: 0;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
     right: 0;
     margin: auto;
 }
@@ -1729,14 +1859,13 @@ header>nav>a:hover{
 }
 
 
-body>#section_footer{
+body>main>#section_footer{
     position: relative;
     height: 20px;
     background: #2fd4e8;
-
-    width: 100%;
+    width: 100vw;
 }
-body>#section_footer>h3{
+body>main>#section_footer>h3{
     font-weight: initial;
     color: #000086;
     height: fit-content;
@@ -1745,7 +1874,7 @@ body>#section_footer>h3{
     right: 0;
     margin: auto;
     font-size: 18px;
-    font-family: 'Brush Script MT', 'Noto Sans SC', sans-serif;
+    font-family: 'Pacifico', cursive;
 
 }
 
