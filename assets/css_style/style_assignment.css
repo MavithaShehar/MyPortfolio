@@ -35,11 +35,11 @@ hr{
     border: 2px solid #12cbcb;
 }
 
-#main-section {
-    max-width: 1366px;
-    margin: auto;
-    /*margin: unset;*/
-}
+/*#main-section {*/
+/*    max-width: 1366px;*/
+/*    margin: auto;*/
+/*    !*margin: unset;*!*/
+/*}*/
 
 *{
     margin: 0;
@@ -266,7 +266,7 @@ hr{
 
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    /*justify-content: space-between;*/
     padding-left: 100px;
 
 }
@@ -284,15 +284,15 @@ hr{
     border-radius: 10px;
     transition: all 0.5s cubic-bezier(0.23, 1, 0.320, 1);
     z-index: 100;
-    margin-right: 50px ;
-    margin-bottom: 50px;
+    margin-right: 0px ;
+    margin-bottom: 20px;
 }
 #ass>.content {
     margin-right: 100px ;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: 20px;
+    gap: 10px;
     color: black;
     transition: all 0.5s cubic-bezier(0.23, 1, 0.320, 1);
 }
@@ -401,6 +401,12 @@ hr{
 
 }
 
+@media screen and (max-width: 839px) {
+    .case_btn {
+        width: 50px!important;
+
+    }
+}
 @media screen and (max-width: 768px){
 
     header>nav>a {
@@ -429,11 +435,52 @@ hr{
 
 }
 
-@media screen and (max-width: 425px){
+
+@media screen and (max-width: 730px){
+
+    .case_btn {
+        margin-right: 45px!important;
+
+    }
+}
+@media screen and (max-width: 729px){
+
+    .case_btn {
+        margin-right: 40px!important;
+
+    }
+}
+@media screen and (max-width: 719px){
+
+    #ass>.card {
+        padding: 120px;
+        margin-right: 50px;
+        margin-left: 50px;
+    }
+}
+@media screen and (max-width: 531px){
+
+    #ass>.card {
+
+        margin-right: 15px;
+        margin-left: 0px;
+    }
+}
+@media screen and  (max-width: 444px) {
+
+    #ass>.card {
+        margin-right: 5px;
+        margin-left: 0px;
+    }
+}
+
+
+@media screen and (max-width: 425px) {
     #navbar-mobile-icon {
         display: block;
 
     }
+
 
     header > nav {
         position: absolute;
@@ -509,6 +556,31 @@ hr{
     #ass {
         top: 585px;
     }
+
+    #ass>.card {
+        padding: 90px;
+
+    }
+}
+
+@media screen and (max-width: 374px){
+
+    #ass>.card {
+        padding: 80px;
+        margin-left: -30px;
+    }
+    .content .heading {
+        font-size: 16px;
+
+    }
+
+}
+
+@media screen  and (max-width:310px ){
+
+    #ass>.card {
+        margin-left: -63px!important;
+    }
 }
 
 @media screen and (max-width: 320px){
@@ -535,16 +607,83 @@ hr{
     #ass>.card {
         margin-left: -40px;
     }
+}
 
-    /*.titel_02 {*/
-    /*    top: 500px;*/
-    /*}*/
-    /*#ass {*/
-    /*    top: 585px;*/
-    /*}*/
-    /*#couse_work{*/
-    /*    height: 110vh;*/
-    /*}*/
+@media screen and (max-width: 1800px){
+    #ass>.card {
+        padding: 95px;
+    }
+}
+@media screen and (max-width: 1459px){
+    .case_btn {
+        margin-right: 70px!important;
+
+    }
+    #ass>.card {
+        padding: 120px;
+    }
+}
+
+@media screen and (max-width: 1329px) {
+    .case_btn {
+        margin-right: 25px !important;
+
+    }
+}
+@media screen and (max-width: 1194px) {
+    .case_btn {
+        margin-right: 15px !important;
+
+    }
+}
+@media screen and (max-width: 1164px) {
+    .case_btn {
+        margin-right: 9px !important;
+
+    }
+}
+@media screen and (max-width: 1146px) {
+    #ass>.card {
+        padding: 115px;
+    }
+}
+@media screen and (max-width: 1146px) {
+    #ass>.card {
+        padding: 110px;
+    }
 }
 
 
+
+.case_btn{
+    width: 100px;
+    height: 200px;
+    /*background: #1c1cd5;*/
+    margin-right: 50px;
+    position: relative;
+    text-decoration: none;
+}
+
+.cases{
+    /*background: red;*/
+    width: 60px;
+    height: fit-content;
+    border-radius: 10px;
+    border: 3px solid #0dcaf0;
+    font-size: 12px;
+    margin-bottom: 15px;
+    margin-top: 10px;
+    text-align: center;
+    margin-left: 10px;
+
+}
+.case_btn>a{
+    text-decoration: none;
+}
+
+.cases:hover{
+    border: 3px solid #1c1cd5;
+}
+.cases:active{
+    transform: scale(0.9);
+}
