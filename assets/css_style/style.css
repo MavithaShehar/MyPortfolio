@@ -988,17 +988,16 @@ section{
     border: 2px solid #2fd4e8;
     box-shadow: rgb(221, 245, 245) 0px 5px 15px;
     border-radius: 10px;
-    transition-duration: 4s;
+    transition-duration: 2s;
 
 }
 
 #section_expertis>div:nth-child(3)>div:hover{
 
     border: 5px solid rgb(47, 212, 232);
-    transition-duration: 0.5s;
     box-shadow: rgb(47, 212, 232) 0px 8px 24px;
 
-    transform: scale(1.15);
+    transform: scale(1.05);
 
 }
 
