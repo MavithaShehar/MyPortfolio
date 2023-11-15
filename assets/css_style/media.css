@@ -185,7 +185,7 @@
 
 
     #about_me_section>#languages_and_tools>div:nth-child(4) {
-     top: 42vw;
+        top: 42vw;
 
     }
 
@@ -927,24 +927,6 @@
 
 }
 
-@media screen and (max-width: 900px){
-    #about_me_section>div:nth-child(3)>h3 {
-        position: absolute;
-        font-size: 17px;
-        top: 15vw;
-        left: 0;
-        color: #2083d7;
-        transition-duration: 2.3s;
-    }
-    #about_me_section>div:nth-child(5)>div:nth-child(3) {
-        /* background: #fa7bf3; */
-        position: absolute;
-        top: 7vw;
-        right: 10vw;
-    }
-
-}
-
 @media screen and (max-width: 912px){
 
     header>nav>a {
@@ -1006,6 +988,24 @@
 
     #section_contact>#contact_area>div:first-child {
         left: 10vw;
+    }
+
+}
+
+@media screen and (max-width: 900px){
+    #about_me_section>div:nth-child(3)>h3 {
+        position: absolute;
+        font-size: 17px;
+        top: 15vw;
+        left: 0;
+        color: #2083d7;
+        transition-duration: 2.3s;
+    }
+    #about_me_section>div:nth-child(5)>div:nth-child(3) {
+        /* background: #fa7bf3; */
+        position: absolute;
+        top: 7vw;
+        right: 10vw;
     }
 
 }
@@ -1199,10 +1199,10 @@
         border: 3px ridge #15cce3;
     }
     #section_contact>#contact_area>div:nth-child(4) {
-         left: 51vw;
+        left: 51vw;
     }
     #section_contact>#contact_area>div:nth-child(5) {
-         left: 60vw;
+        left: 60vw;
     }
     #section_contact > #div_messages >#messege_area > textarea {
         width: 449px;
@@ -1851,6 +1851,20 @@
 }
 
 @media screen and (max-width: 600px){
+    /*mobile nav show hide class*/
+    .show_flex {
+        display: flex!important;
+    }
+
+    .show {
+        display: block!important;
+    }
+
+    .hide {
+        display: none!important;
+    }
+
+    /**/
     #home_section>div:nth-child(4)>dl {
         margin-bottom: 8vh;
         display: block;
@@ -1890,7 +1904,7 @@
     header{
         height: 40px;
         width: 100vw;
-        overflow: hidden;
+
     }
 
     #lodo{
@@ -1996,12 +2010,13 @@
 
     #home_section>div:nth-child(4)>dl:nth-child(4){
         color: orange;
-        width: 200px;
-        font-size: 18px;
+        width: 350px;
+        font-size: 25px;
         font-weight: bold;
         position: absolute;
-        top: 330px;
+        top: 410px;
         left: 80px;
+        font-weight: 700;
     }
 
     #home_section>div:nth-child(6)>span:nth-child(2),span:nth-child(4){
@@ -2014,9 +2029,23 @@
     #home_section>div:nth-child(5){
 
         left: 35vw;
-        top: 470px;
+        top: 618px;
+        height: 120px;
     }
 
+    #home_section > div:nth-child(3) > img {
+        width: 40vw;
+        height: 48vw;
+    }
+
+    #home_section > div:nth-child(3) {
+        display: block;
+        position: absolute;
+        width: 45vw;
+        height: 45vw;
+        right: 48px;
+        top: 10vh;
+    }
     #home_section>div:nth-child(5)>img:hover{
         width: 25px;
         height: 25px;
@@ -2065,11 +2094,15 @@
         bottom: 2px;
     }
     #about_me_section{
-        height: 2250px;
+        height: 2522px;
     }
     #about_me_section>div:nth-child(2)>span{
         top: 40px;
         font-size: 24px;
+    }
+    #about_me_section > #degrees {
+        top: 0vh;
+        height: 25vh;
     }
 
     #about_me_section>div:nth-child(3)>h2 {
@@ -2090,7 +2123,7 @@
     }
     #about_me_section>div:nth-child(5){
         top: 280px;
-        height: 585px;
+        height: 710px;
     }
 
     #about_me_section>div:nth-child(5)>h2{
@@ -2122,7 +2155,7 @@
         padding-top: 10px;
         width: 80vw;
         position: absolute;
-        top: 278px;!important;
+        top: 355px;!important;
         left: 6vw;
         box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
         border-radius: 10px;
@@ -2145,7 +2178,7 @@
         left: 0;
         margin: auto;
         bottom: 03vw;
-        top: 510px;
+        top: 660px;
     }
     #about_me_section>div:nth-child(5)>div:nth-child(4)>button{
         position: absolute;
@@ -2392,8 +2425,8 @@
     /******** Educational_from ***********/
 
     #about_me_section>#educational_from{
-        top: 415px;
-        height: 120px;
+        top: 419px;
+        height: 165px;
     }
     #about_me_section>#educational_from>h2{
         font-size: 15px;
@@ -3106,6 +3139,97 @@
         font-size: 10px;
     }
 
+    #section_contact>#contact_area>div:nth-child(4) {
+        left: 80vw;
+    }
+    #section_contact>#contact_area>div:nth-child(3)>h5 {
+        left: -8vw;
+        font-size: 12px;
+    }
+
+}
+
+@media screen and (max-width: 425px) and (min-height: 810px){
+
+
+    #home_section > div:nth-child(3) > img {
+        width: 44vw;
+        height: 55vw;
+        z-index: 100;
+    }
+
+    #home_section > div:nth-child(3) {
+        display: block;
+        position: absolute;
+        width: 40vw;
+        height: 40vw;
+        right: 54px;
+        top: 12vh;
+    }
+
+    #home_section>div:nth-child(5) {
+        left: 35vw;
+        top: 608px;
+        height: 100px;
+    }
+
+    #home_section>div:nth-child(4)>dl:nth-child(4) {
+        top: 400px;
+    }
+
+    #about_me_section {
+        height: 2341px;
+    }
+
+    #about_me_section>div:nth-child(5) {
+        top: 280px;
+        height: 698px;
+    }
+
+    #about_me_section>div:nth-child(5)>div:nth-child(4) {
+        /* background: red; */
+        position: absolute;
+        width: 100vw;
+        height: 50px;
+        right: 0;
+        left: 0;
+        margin: auto;
+        bottom: 3vw;
+        top: 645px;
+    }
+    #about_me_section>div:nth-child(5)>div:nth-child(3) {
+        padding-top: 10px;
+        width: 80vw;
+        position: absolute;
+        top: 349px;
+    !important: ;
+        left: 6vw;
+        box-shadow: rgb(0 0 0 / 25%) 0px 0.0625em 0.0625em, rgb(0 0 0 / 25%) 0px 0.125em 0.5em, rgb(255 255 255 / 10%) 0px 0px 0px 1px inset;
+        border-radius: 10px;
+        margin-top: 20px;
+    }
+
+
+    #about_me_section>#degrees {
+        pposition: relative;
+        top: 347px;
+        background: white;
+    }
+    #about_me_section > #degrees {
+        height: 22vh;
+    }
+
+    #about_me_section>#educational_from {
+        top: 380px;
+        height: 140px;
+    }
+
+    #section_expertis {
+        top: 5px;
+        height: 1550px;
+    }
+
+
 }
 
 @media screen and (max-width: 325px) {
@@ -3206,13 +3330,13 @@
         rotate: 4deg;
     }
     #about_me_section>#education_level>div:nth-child(9) {
-         width: 40px;
-         height: 40px;
-         /* background: blue; */
-         top: 170px;
-         left: 13px;
-         rotate: 0deg;
-     }
+        width: 40px;
+        height: 40px;
+        /* background: blue; */
+        top: 170px;
+        left: 13px;
+        rotate: 0deg;
+    }
     #about_me_section>#education_level>div:nth-child(9)>img {
         width: 29px;
         height: 26px;
@@ -3388,7 +3512,7 @@
         padding-left: 5px;
         width: 35px;
         height: 35px;
-         /*background: red; */
+        /*background: red; */
         border-radius: 100%;
         border: 3px ridge #15cce3;
         left: 10vw;
@@ -3488,7 +3612,6 @@
         font-size: 25px;
     }
 
-
-
 }
+
 
